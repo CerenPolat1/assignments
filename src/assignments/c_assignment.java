@@ -106,12 +106,5 @@ public class c_assignment {
             fac--;
             System.out.println(s);
         }
-
-
-
-
-
-
-
     }
 }
