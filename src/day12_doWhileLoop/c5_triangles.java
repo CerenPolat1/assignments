@@ -1,6 +1,6 @@
 package day12_doWhileLoop;
 
-public class c5_Triangels {
+public class c5_triangles {
     /*
 
     *
@@ -44,24 +44,23 @@ public class c5_Triangels {
              * * * * * * *
              * * * * * *
              * * * * *
-              ...
+             * * * *
+             * * *
+             * *
+             *
 
         */
 
 
+        for (int i=7; i>=1; i-- ){
+
+            for (int k=1; k<=i; k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+
     }
 }
-//hello this is a change
-
-
-
-
-
-
-
-
-
-
-
-
-
