@@ -16,11 +16,13 @@ public class c_assignment {
         System.out.println("enter word:");
         String b = abc.next();
 
-        int d = b.length() - 1;
-        if(d%2==0){
-            System.out.println(b.concat(b.substring(d/2+1)).toUpperCase());
+        int lastindex = b.length() - 1;
+        int middle= b.length()/2-1;
+        int middle2=b.length()/2;
+        if(lastindex%2==0){
+            System.out.println(b.concat(b).concat(b.substring(middle).toUpperCase()));
         }else{
-            System.out.println(b.concat(b.substring(d/2)).toLowerCase());
+            System.out.println(b.substring(middle2));
         }
 
 
@@ -39,7 +41,7 @@ public class c_assignment {
         String a = mmm.nextLine();
         String g = mmm.nextLine();
 
-        int lastindex = a.length() - 1;
+        //int lastindex = a.length() - 1;
         String oo = "" + a.charAt(lastindex);
 
         int firstindex = g.charAt(0);
