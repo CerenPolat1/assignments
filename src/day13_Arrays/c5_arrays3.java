@@ -1,6 +1,5 @@
 package day13_Arrays;
 
-package day13_Arrays;
 
 import java.util.Arrays;
 
