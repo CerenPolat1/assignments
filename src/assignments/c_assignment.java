@@ -16,8 +16,12 @@ public class c_assignment {
         System.out.println("enter word:");
         String b = abc.next();
 
-
         int d = b.length() - 1;
+        if(d%2==0){
+            System.out.println(b.concat(b.substring(d/2+1)).toUpperCase());
+        }else{
+            System.out.println(b.concat(b.substring(d/2)).toLowerCase());
+        }
 
 
         System.out.println("**********************");
