@@ -50,12 +50,13 @@ public class c2_Arrays {
         ///length of array
         int length = engineers.length;//4
         System.out.println("Length of engineers is "+ length);
+        System.out.println("------------------------------");
 
         //print the all engineers
-        for (int i =0 ; i <= engineers.length -1 ; i++){
+        for (int i =0 ; i <= engineers.length-1  ; i++){
             System.out.println(engineers[i]);
         }
-
+        System.out.println("-------------------------------");
 
         boolean [] booleans=new boolean[5];//length is 5
         //last index 4
@@ -77,7 +78,7 @@ public class c2_Arrays {
         //both are same
         int lastindex= booleans1.length -1;
 
-        for (int i = 0 ; i <= lastindex ; i++){
+        for (int i = 0 ; i <= lastindex ; i++){ // i'ye 0 dedik ve booleans1'de 0'i karsilayan true oldugundan runda onu isledi.
 
             if (booleans1[i]){//0  2 5 6
                 System.out.println("Passed");
