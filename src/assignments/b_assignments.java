@@ -5,14 +5,16 @@ import java.util.Scanner;
 public class b_assignments {
     public static void main(String[] args) {
 
+/////previous assignment:
 
 //Question 1
 //Write a program to print numbers from 1 to 10.
 
 for(int a=1; a<=10; a++){
-    System.out.println(a);
+    System.out.print(a+ " ,");
 }
-        System.out.println("//////////////");
+        System.out.println();
+        System.out.println("..................");
 
 //Question 2
 //Write a program to calculate the sum of first 10 natural number.
@@ -23,7 +25,7 @@ for(int a=1; a<=10; a++){
 }
  System.out.println("the sum of first 10 natural number is= " + (sum));
 
-        System.out.println("////////////////");
+        System.out.println(".....................");
 
 //Question 3
 //Write a program that prompts the user to input a positive integer.
@@ -39,7 +41,7 @@ for(int a=1; a<=10; a++){
 
         }
 
-        System.out.println("///////////////////");
+        System.out.println("...................");
 
 //Question 4
 //Write a program to find the factorial value of any number entered through the keyboard.
@@ -50,7 +52,7 @@ for(int a=1; a<=10; a++){
         fact*=i;
     }
         System.out.println(fact);
-        System.out.println("/////////////");
+        System.out.println("....................");
 
          ///OR
 
@@ -63,7 +65,7 @@ for(int a=1; a<=10; a++){
         }
         System.out.println(nmbr);
 
-        System.out.println("///////////");
+        System.out.println(".....................");
 
 
 //Question 6
@@ -78,7 +80,7 @@ for(int a=1; a<=10; a++){
         }
         System.out.println(reverse);
 
-        System.out.println("///////////////////");
+        System.out.println("...................");
 
 //Question 7
 //Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
@@ -91,21 +93,22 @@ for(int a=1; a<=10; a++){
 
         System.out.println(sak);
 
-        System.out.println("///////////");
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         }
-
 }
+
+//1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10 ,
+//        ..................
+//        the sum of first 10 natural number is= 55
+//        .....................
+//        please enter positive integer:
+//        5
+//        5 * 1 = 5
+//        5 * 2 = 10
+//        5 * 3 = 15
+//        5 * 4 = 20
+//        5 * 5 = 25
+//        ...................
+//        120
+//        ....................
+//        find the factorial value of any number

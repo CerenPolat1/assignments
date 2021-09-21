@@ -18,6 +18,7 @@ public class c3_arrays2 {
         //...
 
         System.out.println("-----------");
+
         for (int i=0 ; i <= arr2.length-1 ; i++){
             arr2[i] = i +3;                  //neden buraya 3 yazdik cunku index 0'in 3ten baslamasini istiyoruz.
                                             //eger index 0'in 1'den baslamasini isteseydik i+1 yazardik: aar2[i]={3,4,5,6...22};

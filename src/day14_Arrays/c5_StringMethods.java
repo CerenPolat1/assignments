@@ -12,7 +12,7 @@ public class c5_StringMethods {
         //toCharArray()             this will take a string and return you a char array                 char[]
 
         String str= "*& Java  12 Ghost ESther";
-        char [] letters= str.toCharArray();
+        char [] letters= str.toCharArray(); //sana letter halinde bolup veriyor
         System.out.println(letters [ 3]);
         System.out.println(Arrays.toString(letters));//[*, &,  , J, a, v, a,  ,  , 1, 2,  , G, h, o, s, t,  , E, S, t, h, e, r]
         // 0   1  2  3  4  5  6  7
@@ -29,7 +29,8 @@ public class c5_StringMethods {
 
         //task is to split sentence from spaces
         // String [] splitedSenteces=mySentence.split(" "); // to split from spaces
-        // String [] splitedSenteces=mySentence.split("a"); //to split from a letter
+        // String [] splitedSenteces=mySentence.split("a"); //to split from a letter (a'lari cumleden cikarir)
+
         String [] splitedSenteces=mySentence.split("");  //to split from each letter
         System.out.println(Arrays.toString(splitedSenteces));
 

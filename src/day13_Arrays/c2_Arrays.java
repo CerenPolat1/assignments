@@ -36,7 +36,7 @@ public class c2_Arrays {
 
         String engineer=new String();//this will only store one engineer
         String [] engineers = new String[4]; // 0 1 2 3
-        //since array size is fixed you will need to specify the length when you create the array
+        //since array size is fixed you will need to specify the length, when you create the array
         //size has to passed []
         //for this array you have size as a 4 (this number will be assigned at the begining  )
         //all the index from engineers will be null
@@ -67,6 +67,8 @@ public class c2_Arrays {
 
         System.out.println(booleans[0]);
         System.out.println("*************************");
+
+
         boolean [] booleans1={true,false,true,false,false,true,true};
 
         //create an java code that will check boolen values
@@ -78,7 +80,7 @@ public class c2_Arrays {
         //both are same
         int lastindex= booleans1.length -1;
 
-        for (int i = 0 ; i <= lastindex ; i++){ // i'ye 0 dedik ve booleans1'de 0'i karsilayan true oldugundan runda onu isledi.
+        for (int i = 0 ; i <= lastindex ; i++){ //
 
             if (booleans1[i]){//0  2 5 6
                 System.out.println("Passed");

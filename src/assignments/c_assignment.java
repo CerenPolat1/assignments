@@ -14,10 +14,17 @@ public class c_assignment {
 
         Scanner abc = new Scanner(System.in);
         System.out.println("enter word:");
-        String b = abc.next();
+        String b = abc.nextLine();
 
+        if(b.length()==0){
+            System.out.println(b.substring(b.length()/2,b.length()/2+1 ).toUpperCase());
+        } else if (b.length()!=0){
+            System.out.println(b.substring(b.length()/2, b.length()/2+1).toUpperCase());
+        }else{
+            System.out.println("invalid");
+        }
 
-
+        System.out.println("...........");
 //#3 - Ask user to enter two words. Then add them together and print.
 // But if the last letter of the first word and the first letter of the last letter is the same, print that character once.
 //                    Input:
@@ -30,6 +37,15 @@ public class c_assignment {
         System.out.println("enter two words");
         String a = mmm.nextLine();
         String g = mmm.nextLine();
+        int alastindex=a.length()-1;
+        int glastindex=b.length()-1;
+
+
+//        if(a.charAt(alastindex).{
+//            System.out.println(a.substring(a.length()-1).concat(""+g.indexOf(1)));
+//        } else{
+//            System.out.println((a)+(g));
+//        }
 
         System.out.println("***********************");
 
@@ -78,8 +94,6 @@ public class c_assignment {
  */
 
 
-
-
-
     }
 }
+

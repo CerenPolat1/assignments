@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class c1_arrayPractice {
     //test data
-    //positve   1 -7 validate name presnet
-    // negative  negatif number 0 or bigger 7
-    //att1=false number and true
-    //att1=false numebr false number true number
-    //att1=false false false
+    //positive scenerio  1 -7 validate name present
+    // negative scenerio negative number 0 or bigger 7
+    //att1=false number and true number
+    //att1=false number- false number -true number
+    //att1=false- false -false
 
     public static void main(String[] args) {
         //create a java program that will check days string and depends on number you passed
@@ -27,12 +27,23 @@ public class c1_arrayPractice {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter a number : ");
         int number=scan.nextInt();
-        // i will need an number that will check attempts
-        int attempt=1;
+        // i will need a number that will check attempts
+        int attempt=1; //user first time will give number thats way we put it as a first= attempt=katilim
+
+
+        //this is for checking the num ber if it is bestween 1-7 print day name
+        //1 monday=(0) from array
+        //2 tuesday=(1) from array
+        //positive senaryo icin yapildi bu denklem neden -1 cunku 0-mondaya karsilik geliyor ama biz 1 den baslasin istiyoruz
+
+        //String result=days[number-1];
+        //System.out.println(result);
 
         // conditions
         //check the number if number is not between 1 -7 invalid
         //need to check attempt after 3 stop
+
+
         while (number >7 || number <1){
             System.out.println("Invalid Number");
             System.out.println("Try Again !!");

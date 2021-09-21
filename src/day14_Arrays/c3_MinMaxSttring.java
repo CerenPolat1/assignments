@@ -18,19 +18,19 @@ public class c3_MinMaxSttring {
         Arrays.sort(names);
         System.out.println(Arrays.toString(names));
 
-        //in assci table
+        //in assci table, upper cases ara always smaller than lower case. thats why; js smallest elememnt in here
         //A 65      a  97
         //Z 90      z  122
 
         //lets assume first word has max length
         //lets assume first word has min length
 
-        int maxLength=names[1].length();
-        int minLength= names[1].length();
+        int maxLength=names[0].length();
+        int minLength= names[0].length();
 
         //lets assume largest and shorttest string
-        String longestName= names[1];
-        String shortestName= names[1];
+        String longestName= names[0];
+        String shortestName= names[0];
 
 
         for (int i =0 ; i < names.length ; i++){

@@ -16,7 +16,7 @@ float [] f= {3.5f, 4.6778f};
 // floats are tricky b/c their syntax
         // remember syntax and structure
 
-        // do you know how to access one index in the array?
+        //  how to access one index in the array?
 
         //.length() counts from 1, 2, 3, 4, but indexing starts from 0
 
