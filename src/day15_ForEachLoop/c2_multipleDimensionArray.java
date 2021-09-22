@@ -70,7 +70,11 @@ public class c2_multipleDimensionArray {
 //                { {8} }
 //        };
 
-        int [][][] number3d= {  { {1,2,3} , {4,5} } , { {6 } , {7} }  , { {8} } };
+        int [][][] number3d= {  { {1,2,3} , {4,5} } , { {6 } , {7} }  , { {8} } }; //onemli olan kac tane parantez oldugu degil
+                                                                                  //onemli olan { { } } //iki dimensionli { {1;2},{3,4,5} }
+                                                                                 // parantez dislarini sayarsan kac demesion oldugunu anlarsin
+
+
         //                      0                   , 1               , 2
         //                          0      , 1       ,   0     ,  1     ,  0
         //                         {0,1 ,2 } , {0,1} ,   0     ,  0     ,   0
