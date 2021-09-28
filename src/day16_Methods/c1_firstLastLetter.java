@@ -26,7 +26,7 @@ public class c1_firstLastLetter {
         // nameList[0]=input.next();  5 times
 
         for (int i = 0; i <= nameList.length -1 ; i++){
-            System.out.println("Enter Name " + (i+1) );
+            System.out.println("Enter Name " + (i+1) ); //neden i+1 bec. to enter name1; name2, name3 gibi icin
             nameList[i]=input.next();
         }
 

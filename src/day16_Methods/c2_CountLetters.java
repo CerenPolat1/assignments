@@ -10,7 +10,7 @@ public class c2_CountLetters {
 
     public static void main(String[] args) {
         //string
-        //tochararray split
+        //tochararray split--to check each letter. slit i kullanmak daha usefull oldugundan omu kullandik
         //count variable int
         //for each
 

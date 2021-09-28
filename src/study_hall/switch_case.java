@@ -1,38 +1,33 @@
-package day07_Scanner;
+package study_hall;
 
-
-public class c3_SwitchPractice {
-
-
-
-    //Accepted Data Types
-    //The variable passed as a switch argument can be one of the following:
-    //char
-    //byte
-    //short
-    //int
-    //String
-    //Integer,Short,Byte,Char
-
+public class switch_case {
     public static void main(String[] args) {
+
+
+        //Accepted Data Types
+        //The variable passed as a switch argument can be one of the following:
+        //char
+        //byte
+        //short
+        //int
+        //String
+        // long  not acceptable
+        //float not acceptable
+        //double not acceptable
+
+
+        // A switch statement allows a variable to be tested for equality against a list of values.
+        // Each value is called a case, and the variable being switched on is checked for each case.
+
+        /////////////
+
+        //practice
         //create a logic that will check the number and print the day name
-//        byte b1=1;
-//        short s1=2;
-//        int number =70;
-        // long l1=5; not acceptable
-        //float f1= 7;  not acceptable
-        //double d1=10;  not acceptable
+
 
         String dayName; //empty string not assigned anything yet
-        int number=7;
+        int number=1;
 
-        //The value for a case must be of the same data type as the variable in the switch.
-        // (or smaller then switch range)
-
-        //The value for a case must be a constant or a literal. Variables are not allowed.
-
-
-        //if you dont specify whole number type java will take as a int number
         switch (number){
 
             case 1:
@@ -51,10 +46,11 @@ public class c3_SwitchPractice {
             case 5:
                 dayName=" Friday";
                 break;
-            default:
+           default:
                 //The default statement is optional and can appear anywhere inside the switch block.
-                //          In case, if it is not at the end, then a break statement must be kept after the
-                //          default statement to avoid the execution of the next case statement.
+                //          In case, if it is not at the end, then a `break statement must be kept after the
+                //          default statement to avoid the execution of the next case statement.`
+               //let's think default as an else.. they are similar bec. both are executed, if others are not correct
                 dayName = "Invalid Day";
                 break;
             case 6 :
@@ -64,6 +60,9 @@ public class c3_SwitchPractice {
                 dayName ="Sunday";
 
         }
+
+
+
 
         System.out.println(dayName);
         System.out.println("................");

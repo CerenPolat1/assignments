@@ -1,10 +1,10 @@
 package assignments;
-import java.util.Locale;
+
 import java.util.Scanner;
 public class c_assignment {
     public static void main(String[] args) {
 
-
+/// the one of previous assignments
 
 
         //Task 1:
@@ -16,9 +16,9 @@ public class c_assignment {
         System.out.println("enter word:");
         String b = abc.nextLine();
 
-        if(b.length()==0){
-            System.out.println(b.substring(b.length()/2,b.length()/2+1 ).toUpperCase());
-        } else if (b.length()!=0){
+        if(b.length()%2==0){
+            System.out.println(b.substring(b.length()/2-1,b.length()/2+1 ).toUpperCase());
+        } else if (b.length()%2 !=0){
             System.out.println(b.substring(b.length()/2, b.length()/2+1).toUpperCase());
         }else{
             System.out.println("invalid");
@@ -35,19 +35,37 @@ public class c_assignment {
 
         Scanner mmm = new Scanner(System.in);
         System.out.println("enter two words");
-        String a = mmm.nextLine();
-        String g = mmm.nextLine();
-        int alastindex=a.length()-1;
-        int glastindex=b.length()-1;
+        String userWord1 = mmm.nextLine();
+        String userWord2 = mmm.nextLine();
+
+        int word1LastIndex=userWord1.length()-1;
+        String word1LastIndex1=""+userWord1.charAt(word1LastIndex);
+
+        String wordFirstIndex2=""+userWord2.charAt(0); // why we put ""
+
+        if (word1LastIndex1.equals(wordFirstIndex2)){
+            System.out.println(userWord1.concat(userWord2.substring(1)));
+        } else{
+            System.out.println("invalid");
+        }
+
+        System.out.println("...........");
 
 
-//        if(a.charAt(alastindex).{
-//            System.out.println(a.substring(a.length()-1).concat(""+g.indexOf(1)));
-//        } else{
-//            System.out.println((a)+(g));
-//        }
 
-        System.out.println("***********************");
+        //OR???
+
+
+
+//
+//        if(userWord1.substring(userWord1.length()-1)==userWord2.substring(0,1)) {
+//                System.out.println(userWord1.substring(userWord1.length()-1).concat(userWord2.substring(0,1)));
+//                } else{
+//                System.out.println("invalid");
+//                }
+//
+//
+
 
 
 
@@ -72,7 +90,7 @@ public class c_assignment {
 
         for (int t = 1; t < 100; t++) {
 
-            if (t % 2 == 0 && t%3==0 && t%5==0) {
+            if (t % 2 == 0 && t % 3==0 && t%5==0) {
                 System.out.println("this number is even number  " + t);
 
             }
@@ -80,20 +98,23 @@ public class c_assignment {
         }
 
 
-
-        /*
-  task 6. write a program that can return the factorial number of any given number
-            Ex:
-                input: 6
-                output: 720
-
-            because:
-                6! = 6 * 5 * 4 * 3 * 2* 1 = 120
-
-                15!= 15 * 14 *.....* 1
- */
-
-
     }
 }
+
+//    enter word:
+//        hope
+//        OP
+//        ...........
+//        enter two words
+//        blue
+//        ending
+//        bluending
+//        ...........
+//        this is odd number 15
+//        this is odd number 45
+//        this is odd number 75
+//        ***********************
+//        this number is even number  30
+//        this number is even number  60
+//        this number is even number  90
 

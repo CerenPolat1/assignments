@@ -4,7 +4,7 @@ package assignments;
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 
-public class ozge_ninki {
+public class ozgenin {
 
     public static void main(String[] args) {
         //Task 1:
@@ -186,3 +186,17 @@ public class ozge_ninki {
     }
 }
 */
+
+
+//OR
+
+
+
+//
+//        if(userWord1.substring(userWord1.length()-1)==userWord2.substring(0,1)) {
+//                System.out.println(userWord1.substring(userWord1.length()-1).concat(userWord2.substring(0,1)));
+//                } else{
+//                System.out.println("invalid");
+//                }
+//
+//                System.out.println("***********************");

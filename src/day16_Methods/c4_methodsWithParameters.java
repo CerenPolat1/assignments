@@ -14,17 +14,22 @@ public class c4_methodsWithParameters {
         //hello method is void method without parameters
         hello();
         hello();
-        ageCategory(10);
+        //asagidakilerin hepsi parameter cunku int degeri aldilar,bi tane daha agecatogory yazmaya calistiginda
+        // int oldugunu gosteriyoe
+        ageCategory(10); //bunun icine numara vermezsen calismaz cunku buna bagli olarak kurduk denklemi
+                        // senden yas yazmani istiyor ki run etsin
         ageCategory(25);
         ageCategory(3);
         ageCategory(85);
         ageCategory(-25);
 
+        //eger yukaridaki gibi deger verip gormek istemezsen yine main method icinde scanner kullanarak yapabilirsin
+
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter your age");
         int age=scanner.nextInt();
 
-        ageCategory(age);
+        ageCategory(age); // bu da verilen degerin run etmesi icin yazildi
 
     }
 
@@ -32,7 +37,7 @@ public class c4_methodsWithParameters {
         System.out.println("hello");
     }
 
-    //crete a method that will check given age and print the category of each age
+    //create a method that will check given age and print the category of each age
     //if age is 0-5 baby
     //if age is 5-18 young
     //if age is 18-80 mature
