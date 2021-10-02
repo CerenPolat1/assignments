@@ -23,7 +23,8 @@ public class c4_MethodOverloading {
 
         //short cut to print with explanation is soutv
         System.out.println(Arrays.toString(numbers));
-        System.out.println("Arrays.toString(numbers) = " + Arrays.toString(numbers));
+        System.out.println("Arrays.toString(numbers) = " + Arrays.toString(numbers)); //bunu, Arrays.toString(numbers).soutv yazarak bulduk
+                                                         //  ekstra info saglar.
 
     }
     //task create method that concats 2 string

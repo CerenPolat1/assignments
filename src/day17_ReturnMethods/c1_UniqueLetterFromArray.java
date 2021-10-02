@@ -1,6 +1,5 @@
 package day17_ReturnMethods;
 
-import com.sun.tools.internal.ws.wsdl.document.soap.SOAPUse;
 
 import java.util.Arrays;
 ////!!!!!!!!mulakatta buradan soru gelebiliiir!!!!!!!!
@@ -83,7 +82,7 @@ public class c1_UniqueLetterFromArray {
         for (int i=0 ; i < letters.length ; i++){//A    //sadece A'yi sayar cunku i=0=A, ardindan ikinci for'a geciyoruz
                                                        //neden sadece A'yi aldi, cunku staeting point 0, akabine for kouyoruz ve count yapsin diye
             int count=0; /// buraya koyduk ki 2.loopu e
-            for (int i1 =0 ; i1 < letters.length ; i1++){//{"A", "A", "B",  "C","D","D"};
+            for (int i1 =0 ; i1 < letters.length ; i1++){//{"A", "A", "B",  "C","D","D"};  //iki foru kiyaslayarak farki buluyoruz.
 
                 if (letters[i1].equals(letters[i])){
                     count++;

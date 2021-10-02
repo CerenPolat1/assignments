@@ -13,7 +13,7 @@ public class c8_minNumberArray {
         System.out.println("minNumber(arr2) = " + minNumber(arr2));
     }
 
-    public static int minNumber(int[] numbers){
+    public static double minNumber(int[] numbers){
         //first i will assume my minumum number is index 0
         int minumum=numbers[0];
 
