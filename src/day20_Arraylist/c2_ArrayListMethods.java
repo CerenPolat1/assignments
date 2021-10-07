@@ -12,7 +12,12 @@ public class c2_ArrayListMethods {
 
     public static void main(String[] args) {
         ArrayList <Integer> numbers = new ArrayList<>();//size is 0
-        //add method will add it to end
+
+        //add method provides number to move one step further.
+
+        // add methodunda sectigin indexin yerinde olan rakam bir index artmis olur, eski sayinin yerini alir ve onu bir adim oteye tasir
+
+
         numbers.add(5);//0
         numbers.add(10); //1
         numbers.add(100); //2
@@ -33,7 +38,7 @@ public class c2_ArrayListMethods {
         numbers.add(5,95);
         System.out.println(numbers);
 
-        //set(index , data) //reassiginning your datas
+        //set(index , data) //reassiginning your datas                //!!!direkt istedigi indexin yerini alir ve eskisini kaldirir!!!!
         //this method will set value for given index
         //set 5 to 500
         numbers.set(1,500);
@@ -52,14 +57,18 @@ public class c2_ArrayListMethods {
         letters.add("A");
         System.out.println(letters);//[B, A, E, A]
 
-        //remove
+
+        //remove method    //istedigin indexi kaldirir
+
+
         letters.remove("A");
         System.out.println(letters);//[B, E, A]
         letters.remove(0);
-        System.out.println(letters);//[E, A]
+        System.out.println("........"+letters);//[E, A]
 
         letters.remove("X");
         System.out.println(letters);
+
         //remove method will look at given object or index to remove it if it is present it will removve
         //if it is not presnet nothing will change
 
@@ -71,7 +80,11 @@ public class c2_ArrayListMethods {
 
         System.out.println(letters);
 
+
+
         //clear method will clear eveything in your list
+
+
         letters.clear();
         System.out.println("letters = " + letters);//[]
 

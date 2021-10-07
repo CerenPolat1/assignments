@@ -53,7 +53,9 @@ public class c9_homework {
         String str = "hello 5world a1b2c3";
         System.out.println("str = " + str);
 
-        System.out.println(sum(str));
+        System.out.println(sum(str));    //sum methodunun icinde str'i hesaplamak icin boyle yaziyoruz
+
+
 
         System.out.println("-----------------------------3-----------------------------");
 

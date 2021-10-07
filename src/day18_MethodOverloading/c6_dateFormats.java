@@ -9,6 +9,8 @@ public class c6_dateFormats {
     public static void main(String[] args) {
         DateTimeFormatter dateTimeFormatter1=DateTimeFormatter.ofPattern("dd/MMM/yyyy");
 
+
+
         LocalDate localDate1=LocalDate.now();
         System.out.println("localDate1 = " + localDate1); //localDate1 = 2021-09-28
         //yukaridakini yine soutv kullanarak yapti: localDate1.soutv yazinca yukaridaki cikiyor tamamen

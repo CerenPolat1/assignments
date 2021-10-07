@@ -16,7 +16,7 @@ public class c1_SumDigitsFromString {
 
         String text= "he3llo 505 wor6ld a1b2c3";
         //int numbers= Integer.parseInt(text); this wont work if you have letters in the string
-        // System.out.println(numbers);
+
 
         String text2="5";
         int num = Integer.parseInt(text2);
@@ -25,6 +25,8 @@ public class c1_SumDigitsFromString {
         int sum=0;
         int sum2=0;
         //we will need to store each letter to be able to check if they are number
+
+        //why we use char bec of ascii table
 
         char [] allCharacters=text.toCharArray();
         System.out.println(Arrays.toString(allCharacters));

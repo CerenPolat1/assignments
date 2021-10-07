@@ -94,9 +94,11 @@ public class myLibraryMethods {
 
         return descArr;
     }
+public static void stars(){
+    System.out.println("**********");
+}
 
-
-    }
+}
 
 
 

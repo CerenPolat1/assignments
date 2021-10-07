@@ -23,7 +23,7 @@ public class c7_ArraylistReverse {
     public static ArrayList<Integer> reverseArrayList(ArrayList<Integer> numbers){
         //last index to first index
 
-        ArrayList<Integer> reversedList=new ArrayList<>();  //we are crrating new arraylist bec. reverse stocks here.
+        ArrayList<Integer> reversedList=new ArrayList<>();  //we are creating new arraylist bec. reverse stocks here.
         for (int i =numbers.size()-1 ; i >=0 ; i--){
             reversedList.add( numbers.get(i) );   //neden add ekledik cunku icinde kac tane varsa(bunu get yapar) add yapsin diye
         }

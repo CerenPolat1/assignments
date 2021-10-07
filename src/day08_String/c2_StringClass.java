@@ -46,7 +46,7 @@ public class c2_StringClass {
         //we have 2 different objects and those 2 object created under different memory
 
 
-        //what is the difference of == and equals
+        //what is the difference between == and equals
 
 
         String s1="New York"; //placed under string pool

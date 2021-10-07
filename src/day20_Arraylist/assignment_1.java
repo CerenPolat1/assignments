@@ -1,5 +1,8 @@
 package day20_Arraylist;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class assignment_1 {
     public static void main(String[] args) {
 
@@ -7,8 +10,24 @@ public class assignment_1 {
 //String -- Frequency of Characters
 //Write a return method that can find the frequency of characters
 
+        ArrayList<Integer> frequency= new ArrayList<>();
+
+        frequency.addAll(Arrays.asList(5,10,15,15,15,20,20));
+
+
+
 //(String) Sum of Digits in a string
 //Write a method that can return the sum of the digits in a string
+
+        String  a = "222225";
+        String [] b=a.split("");
+        System.out.println(Arrays.toString(b)); //en basindan sonuna kadar yazdir demek
+         int sum=0;
+
+        for (int i = 0; i < b.length; i++) {   // arrayda lengthte parantez yok
+            sum+=i;  // tum b'nin indexini toplamak icin
+        }
+        System.out.println(sum);
 
 //(String) Sort Letters and Numbers from alphanumeric String
 //Given alphanumeric String, we need to split the string into substrings of consecutive letters or numbers,
@@ -43,10 +62,6 @@ public class assignment_1 {
 //Write a return method that returns the  Fibonacci of any given number
 
 
-
-
-
-
     }
-
 }
+

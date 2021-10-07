@@ -6,11 +6,11 @@ import java.util.Collections;
 public class c3_ArraysListMethods2 {
 
     public static void main(String[] args) {
-        ArrayList<Integer> list =new ArrayList<>();
+        ArrayList<Integer> list =new ArrayList<>();  //2.arraylist'deki <> icine yeniden Integer yazmaya gerek yok ama yazadabilirsin
         list.add(100);
         list.add(35);
         list.add(-25);
-        list.add(-100);
+        list.add(-200);
 
         //indexof(Object) will print index number of the object that you are passing
         //if that object is present in your list you will get index number
@@ -31,7 +31,7 @@ public class c3_ArraysListMethods2 {
         list2.add("B");
 
         System.out.println(list2.indexOf("B")); //1
-        System.out.println(list2.indexOf("c")); //-1
+        System.out.println(list2.indexOf("c")); //-1  //niye -1 oldu cunku listede boyle bir sey yok, -1 olarak kanbul eder
 
         //contains return boolean condition
         System.out.println(list2.contains("B"));
@@ -44,7 +44,7 @@ public class c3_ArraysListMethods2 {
         System.out.println("b1 = " + b1);
 
         ///arrays .sort
-        //Collections is an library whihc is very usefull with arraylist
+        //Collections is an library whihc is very usefull with arraylist    //sana rakamlari kucukten buyuge dogru siralayarak verir
         //Collection is data structure
 
         System.out.println("list = " + list);

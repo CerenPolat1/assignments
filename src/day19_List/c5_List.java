@@ -18,7 +18,7 @@ public class c5_List {
     //			size is dynamic, automatically adjusted
     //			has index numbers
 
-    //what is the differences between array and array list    !!!!!!!!!!!!interiew Question!!!!!!!!!
+   // !!!!!!!  what is the differences between array and array list    !!!!!!!!!!!!interiew Question!!!!!!!!!
     //1.size  : array size is fixed and ; arrraylist size is dynamic
     //2.array accepts primitives arraylist, it doesn't accept primitives
     //3.array is data structure and arraylist is part of collection data structure

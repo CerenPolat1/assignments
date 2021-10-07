@@ -17,8 +17,9 @@ public class c6_ListPractice {
         numberList.add(290);
         numberList.add(-100);
 
-        // int maximum=numberList.get(0); bu sekilde de bulunabilir //assuming number 0 is maximuum
-        int maximum=Integer.MIN_VALUE;//-2147483648  //we assume min int number is max
+         int maximum=numberList.get(0); // bu sekilde de bulunabilir //assuming number 0 is maximuum
+        //int maximum=Integer.MIN_VALUE;//-2147483648  //we assume min int number is max
+        //rakam, bundan daha kucuk olamayacagi icin bunu referans aldik
 
         System.out.println(maximum);
 
@@ -44,7 +45,7 @@ public class c6_ListPractice {
 
     public static Integer minNumber(ArrayList<Integer> list){
         //Integer minumum= list.get(0); assuming index 0 is minumum
-        Integer minumum= Integer.MAX_VALUE;//2147483648
+        Integer minumum= Integer.MAX_VALUE;//2147483648    ////rakam, bundan daha buyuk olamayacagi icin bunu referans aldik
         System.out.println("First minumum = " + minumum);
 
         for (int i =0 ; i < list .size() ; i++){

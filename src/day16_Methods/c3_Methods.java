@@ -25,12 +25,12 @@ public class c3_Methods {
 
 
     //why we create new method?
-    //tecnically, you dont have to create a method bec. you can handle everything in main method
+    //technically, you dont have to create a method bec. you can handle everything in main method
     //methods specify what is the function of method. you can call this method
     //instead of each time typing main method, you can prefer to call that function that you created
 
     //what is the benefit of creating method?
-    //istead of typing everything in main method, you can cereate and store some in your method
+    //instead of typing everything in main method, you can create and store some in your method
 
 
     //diyelim surekli kullandigin bazi seyler var mesela odevleri bolmekte kullandigin yildiz, nokta gibi kaliplar
