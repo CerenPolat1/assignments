@@ -7,7 +7,7 @@ public class Animals {
     String name;
     String color;
 
-    //cretea a method that will set all information for animal objects in one line
+    //create a method that will set all information for animal objects in one line
     public void setAnimalInfo(String type,double age , String color , String name){
 
         this.type=type; //java got confused which type that i need to get bec. there are 2 of them one of them outside method, other one is inside method
