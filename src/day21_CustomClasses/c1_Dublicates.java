@@ -64,12 +64,14 @@ public class c1_Dublicates {
 
         for (int i =0 ; i<list.size();i++){//"a","b","c","d","c","x","e" ,"c" ,"d" ,"x","x"
 
-            int count = Collections.frequency(list,list.get(i));   ///bu methodla kisa yoldan bulabilirsin
+            int count = Collections.frequency(list,list.get(i));   ///neden hem list hem list.get(i)) 'i kullandik
+            // cunku formul boyle collectionda once listeyi sonra almak istedigin so==seyi yazarsin.
+
             // list ==//"a","b","c","d","c","x","e" ,"c" ,"d" ,"x","x"
-            //list geti =a ,b
+            //list get(i) =a ,b
             //frequency will take 2 parameter
             //first one is your arraylist
-            //second one one data from your list
+            //second one data from your list
             //
             System.out.println("count of list.get(i) = " +list.get(i) + " == " + count  );
 

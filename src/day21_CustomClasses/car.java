@@ -34,6 +34,7 @@ public class car {
 }
 
     public String toString () {
+
         return  brand + "/" + model;
     }
 

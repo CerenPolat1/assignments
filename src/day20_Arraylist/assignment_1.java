@@ -16,12 +16,14 @@ public class assignment_1 {
 
 
 
+
+
 //(String) Sum of Digits in a string
 //Write a method that can return the sum of the digits in a string
 
         String  a = "222225";
         String [] b=a.split("");
-        System.out.println(Arrays.toString(b)); //en basindan sonuna kadar yazdir demek
+        System.out.println(Arrays.toString(b)); //en basindan sonuna kadar yazdir demek, tostring olmazsa hashcode verirdi
          int sum=0;
 
         for (int i = 0; i < b.length; i++) {   // arrayda lengthte parantez yok
@@ -30,6 +32,19 @@ public class assignment_1 {
         System.out.println(sum);
 
 //(String) Sort Letters and Numbers from alphanumeric String
+
+        ArrayList<Integer> numbers= new ArrayList<>();
+        numbers.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+
+
+
+
+
+
+
+
+
+
 //Given alphanumeric String, we need to split the string into substrings of consecutive letters or numbers,
 //sort the individual string and append them back together
 //Ex:

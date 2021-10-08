@@ -21,7 +21,7 @@ public class ShoeObject2 {
 //        we can create a method under shoe class
 //        that will assign our variables
 
-        //set method ---->bunun sayesinde tum bilgileri assign yapabildik
+        //bunun sayesinde tum bilgileri assign yapabildik
         shoe1.setShoeInfo("adidas",10,"yellow");
         shoe1.getShoeInfo();
         shoe2.setShoeInfo("nike" ,7 ,"pink");
@@ -44,7 +44,7 @@ public class ShoeObject2 {
         shoeArrayList.add(shoe1);
         shoeArrayList.add(shoe2);
 
-        System.out.println(shoeArrayList); //to be able to see an result for this
+        System.out.println(shoeArrayList); //to be able to see a result for this
         //your custom class needs to have a toString
 
     }

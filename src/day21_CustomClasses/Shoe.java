@@ -63,15 +63,10 @@ public class Shoe {
      //toString sana sonraki ShoeObject'lerde hashtag almani onliycek
     // toString(): the method gets executed automatically whenever we pass the object name into the print statement
 
-    public String toString(){    //return method
+    public String toString(){    //return method      // System.out.println(shoeArrayList); bunu okuyacak brand+"/"+color+"/"+size; bu sekilde
         return  brand+"/"+color+"/"+size;
-    }  //burada belirttigin icin siger classlarda hastag almayacaksin
-      // ornegin   shoe1.setShoeInfo("adidas",10,"yellow");
-    //        shoe1.getShoeInfo();
-    //        shoe2.setShoeInfo("nike" ,7 ,"pink");
-    //        shoe2.getShoeInfo();
-    //
-    //        System.out.println(shoe1);   bu artik hashcode veremyecek
+    }
+
 
 
 
