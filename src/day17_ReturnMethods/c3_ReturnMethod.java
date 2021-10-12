@@ -23,6 +23,7 @@ public class c3_ReturnMethod {
         System.out.println(division(20, 2));
         int resultOfDivison = division(20, 5); // 4
         System.out.println(resultOfDivison * 10); //40
+        System.out.println(division(30,5));
     }
 
     //decleration of the method
@@ -77,10 +78,12 @@ public class c3_ReturnMethod {
 
     //addition methods
     public static void addition(int number1, int number2) {
+
         System.out.println(number1 + number2);
     }
 
     public static int addition2(int number1, int number2) {
+
         return number1 + number2;
     }
 

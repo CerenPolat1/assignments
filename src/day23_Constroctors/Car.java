@@ -1,7 +1,9 @@
 package day23_Constroctors;
 
 public class Car {
-    //if you dont constructor  java will have one already
+
+
+    //if you dont constructor  java will have one already  -
     //to give abilty to create an object from class
 
     String brand;
@@ -15,7 +17,7 @@ public class Car {
         this.year=year;
     }
 
-    public Car(String brand , int year , double price ,String color){
+    public Car(String brand , int year , double price ,String color){      //contructor method
         this.brand=brand;
         this.year=year;
         this.price=price;

@@ -4,13 +4,13 @@ package day23_Constroctors;
 public class StudentObject {
 
     public static void main(String[] args) {
-        //to be able to call instance variabel or method in static main
+        //to be able to call instance variable or method in static main
         //i will need to create an object
 
         //if i am going to use static methods or variables
         //i can just call with class name
 
-        Student.setSchoolName("Renastech");
+        Student.setSchoolName("Renastech");   // static classin icindesin bu da varible da static o yuzden direkt class ismini cagirdi ve isledi.
 
         Student obj1=new Student();
 

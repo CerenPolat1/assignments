@@ -23,6 +23,7 @@ public class c4_methodsWithParameters {
         ageCategory(85);
         ageCategory(-25);
 
+
         //eger yukaridaki gibi deger verip gormek istemezsen yine main method icinde scanner kullanarak yapabilirsin
 
         Scanner scanner=new Scanner(System.in);

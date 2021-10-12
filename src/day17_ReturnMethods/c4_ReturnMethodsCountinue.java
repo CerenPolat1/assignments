@@ -38,6 +38,7 @@ public class c4_ReturnMethodsCountinue {
     //to be able to compare you need equals
     //return type as boolean
     public static boolean equalNames(String str1,String str2){
+
         return str1.equals(str2);
     }
 

@@ -105,7 +105,7 @@ public class c4_staticVaribles {
 
     //instance variable :declared outside of the blocks
     //instance variable can have multiple copy from object  //her assign yaptiginda degerleri ayri ayri alir
-    //they needs to be called through object   //OBJECT YARATMAN GEREKIR YOKSA CALISMAZ
+    //they need to be called through object   //OBJECT YARATMAN GEREKIR YOKSA CALISMAZ
 
     //static variables :declared outside of any block with static keyword
     //static variable can only have one copy from object     ////her assign yaptiginda degerleri ayri ayri almaz, hepsini bir kabul eder

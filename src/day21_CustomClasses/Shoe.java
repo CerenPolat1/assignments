@@ -13,19 +13,22 @@ package day21_CustomClasses;
 
 // Shoe   nike=new Shoe();
 
-   //!!!!!!!!!!interviwe question about class!!!!!!!!!!! class : it is where you actually implement your code . you store variables methods inside of your class
+   //!!!!!!!!!!interview question about class!!!!!!!!!!! class : it is where you actually implement your code . you store variables methods inside of your class
 
 //this is where you create an object from . Class will explain behaviour of objects
 
 //local variables : local variables that we declared with in block(main method,other methods ,static block)
 //instance variables : object variables that we create inside of class
 //instance variables can not have static specifier
-//needs to be decleared outside of methods or blocks
+//needs to be declared outside of methods or blocks
 
-//Access-Modifer =public, protected ,default ,priavate
-//specifier   : static ,final ,abstract ,synchronized
-//return type : void , any datatype(int,string,char , int [] .......)
-//some method has paramertes some dont have parameter
+//Access-Modifier =public, protected ,default ,private
+
+//                    !!!!!!!!!!!!!!!!!!!!IMPORTANT!!!!!!!!!!!!!!!
+
+        //...................specifier   : static ,final ,abstract ,synchronized
+        //...................return type : void , any datatype(int,string,char , int [] .......)
+        //....................some method has parameters some don't have parameter
 
 
 public class Shoe {

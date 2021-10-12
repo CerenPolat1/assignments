@@ -58,7 +58,7 @@ public class c4_variables {
         System.out.println(number1);
 
         //byte number2=128; this will give you error  because its out of range
-        //byte b1=2.5; this will also give you error beacuse its decimel number
+        //byte b1=2.5; this will also give you error beacuse its decimal number
 
         byte number2=-100;
         System.out.println(number2);

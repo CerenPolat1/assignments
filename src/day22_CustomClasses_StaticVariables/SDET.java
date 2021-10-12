@@ -31,7 +31,7 @@ Actions:
 
   }
 
-public boolean creatingTicket(boolean isBug){
+public  boolean creatingTicket(boolean isBug){
 
     if (isBug==true){
         System.out.println("some bugs found");
@@ -58,7 +58,7 @@ public boolean creatingTicket(boolean isBug){
 
 }
 
-//    Employee name: Ceren, employeeID:= 12345, employee salary: 150000 and employee works at: abc
+//        Employee name: Ceren, employeeID:= 12345, employee salary: 150000 and employee works at: abc
 //        Worker is doing both manual and automation testing
 //        no bug
 //

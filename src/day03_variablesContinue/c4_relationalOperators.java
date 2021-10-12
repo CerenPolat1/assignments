@@ -19,7 +19,6 @@ public class c4_relationalOperators {
         System.out.println("number4 "+number4);
         System.out.println("number5 "+number5);
 
-
         //if you want to copy previous line
         // use ctrl + D for windows
         //use command + D for mac

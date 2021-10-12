@@ -18,7 +18,7 @@ public class c5_StaticMethod {
 
     public static void main(String[] args) {//static method
 
-        //System.out.println(aInstance);  //OBJECT YARATMADAN ORINT YAPAMAZSIN
+        //System.out.println(aInstance);  //OBJECT YARATMADAN PRINT YAPAMAZSIN
         // you cant call instance varible in static method without creating object from class
 
         c5_StaticMethod obj1=new c5_StaticMethod();

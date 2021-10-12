@@ -6,7 +6,7 @@ public class Car {
     int modelYear; // instance
     static boolean hasEngine=true; //static variable
 
-    //if you are not going to create multiple copy from object,, use static variables!!
+    //eger multiple copy yaratmayacaksan, static variables kullan cunku staticte tum variablelar tek copy alir bastan sona tek value kalir!!
     //such as folderpaths ,envriomentName , specific url
 
     //set to details
