@@ -31,7 +31,7 @@ public class c3_ArraysListMethods2 {
         list2.add("B");
 
         System.out.println(list2.indexOf("B")); //1
-        System.out.println(list2.indexOf("c")); //-1  //niye -1 oldu cunku listede boyle bir sey yok, -1 olarak kanbul eder
+        System.out.println(list2.indexOf("c")); //-1  //niye -1 oldu cunku listede boyle bir sey yok, -1 olarak kabul eder
 
         //contains return boolean condition
         System.out.println(list2.contains("B"));

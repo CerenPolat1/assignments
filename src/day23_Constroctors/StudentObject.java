@@ -10,14 +10,14 @@ public class StudentObject {
         //if i am going to use static methods or variables
         //i can just call with class name
 
-        Student.setSchoolName("Renastech");   // static classin icindesin bu da varible da static o yuzden direkt class ismini cagirdi ve isledi.
+        Student.setSchoolName("Renastech");   // static classin icindesin, bu da variable da static o yuzden direkt class ismini cagirdi ve isledi.
 
         Student obj1=new Student();
 
         obj1.setStudentInfo("Mesut");//1
         obj1.getInfo();
 
-        Student obj2=new Student();
+        Student obj2=new Student();      // bu objectlerin her biri sifirdan basladigi  icin mi sayimiz ayni kalmiyor??????
         obj2.setStudentInfo("Meral");//2
         obj2.getInfo();
 

@@ -15,13 +15,14 @@ rather than creating a code for each task in a single constructor we create a se
 and make their chain which makes the program more readable.
      */
 
-    // what is OP concept in java?? search it /////  !!!!!!!!!!!interview question!!!!!!!
+    // what is OOP concept in java?? search it /////  !!!!!!!!!!!interview question!!!!!!!
 
     //Constructor chaining can be achieved in any order.
 
 
     //to be able to create constructor
     //we need to pass an access modifier and classname
+
     public ConstractorChaining(){        //this is default constructor,   //defaulta this () konmaz kuraldir.cunstructur chande en az bi tanesi this ()siz kullanilir
         System.out.println("Default const....");
         method1();

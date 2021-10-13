@@ -9,7 +9,7 @@ public class Student {
     static String schoolName;//static    //niye static kullandik cunku okul ismi degismeyecek ama fark etmez instance de kullanabilirsin
     // sadece staticte degisim olmadigi icin static kullandik
 
-    static int countNumbers=0;  //her defasinda assign yapmamak icin static atatdik
+    static int countNumbers=0;  //her defasinda assign yapmamak icin static atadik
 
     public void setStudentInfo(String name ){
         this.name=name;
@@ -21,7 +21,7 @@ public class Student {
 
     //create a function that will set student number for any new students
     public static int setStudentNumber(){
-        countNumbers++;
+        countNumbers++; //neden buraya this. kullanmadik cunku setStudentNumber'in icine ayni isimle variable yazmadik diye
         return countNumbers; //bu yukselikce id de yuklsecek peki nasil cunku id'ye setStudentNumbe atadik
     }
 

@@ -3,8 +3,11 @@ package day24_AccessModifiers;
 public class c6_PersonObject {
 
     public static void main(String[] args) {
+
         c5_MalePerson male1=new c5_MalePerson();
-        //to be able to access static we will need use class name not objecy
+
+        //to be able to access static, we will need use class name not object
+
         System.out.println("c5_MalePerson.isHuman = " + c5_MalePerson.isHuman);
         System.out.println("c5_MalePerson.gender = " + c5_MalePerson.gender);
 
