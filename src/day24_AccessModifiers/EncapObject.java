@@ -13,7 +13,7 @@ public class EncapObject {
         obj1.setName("Mesut");
         //obj1.age  // i cant call it because it is private
 
-        obj1.setAge(25);
+        obj1.setAge(25);  //private i nasil kullandik?? EncapsulationIntro'da  set ve get kullanarak yaptik
         obj1.setIdNum(1231231234);
 
         System.out.println(obj1.getAge());

@@ -31,7 +31,7 @@ public class c2_ArraySorting {
         //create a condition that will print the numbers from largest to smallest
         int []arr={100,2,5,16,27};
         Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));  //variable icinde ne varsa onun hepsinin yazdir demek
 
         //if i also want to store from large to small
         int [] largeToSmall=new int[arr.length];// [0 ,0 , 0 , 0 , 0]

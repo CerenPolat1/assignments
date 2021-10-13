@@ -10,11 +10,11 @@ public class Person {
     private int age; //encapsulatin 1. part
 
 
-    public Person(String name){     //bu Constructor nereden anlaik cunku class'in ismiyle ayni, neden yarattik peki
+    public Person(String name){     //bu Constructor nereden anladik cunku class'in ismiyle ayni, neden yarattik peki
         this.name=name;
     }
 
-//    public void nameal (String name){   // contructor yerine bunu da yaratabilridin
+//    public void nameal (String name){   // contructor yerine bunu da yaratabilirdin
 //        this.name=name;
 //
 //    }

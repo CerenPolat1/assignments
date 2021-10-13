@@ -20,7 +20,7 @@ Encapsulation in Java is a mechanism of wrapping the data (variables) and code a
 In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
 Therefore, it is also known as data hiding.
 
-IN MY WORD, ENCAPSULATION THE VARIABLES OF THE CLASS WILL BE THE HIDDEN FROM THE OTHER CLASS AND
+IN MY WORD, ENCAPSULATION means THE VARIABLES OF THE CLASS WILL BE HIDDEN FROM THE OTHER CLASS AND
  THEY CAN BE ACCESS ONLY THROUGH THE METHODS OF THEIR CURRENT CLASS
 
    -------- To achieve encapsulation in Java −------
@@ -33,7 +33,7 @@ IN MY WORD, ENCAPSULATION THE VARIABLES OF THE CLASS WILL BE THE HIDDEN FROM THE
     private String name;
     private long idNum;
     private int age;
-    //nobody will have direct acccess to above variables
+    //nobody will have direct access to above variables
 
     //as long as all variables are private they will make them not accessable from outside
     //you will need to assign or modify them
@@ -42,7 +42,8 @@ IN MY WORD, ENCAPSULATION THE VARIABLES OF THE CLASS WILL BE THE HIDDEN FROM THE
 
     //2.Provide public setter and getter methods to modify and view the variables values.
     //this is encapsulation
-//yani sen eger private olani public hale getirebiliyor ve kullanbilirsan buna encapsulation denir.
+//yani private olani public hale getirebilme ve kullanbilme yolu: set and get
+
     public void setName(String name){
         this.name=name;   //private'daki name'i cekti // EncapObject'de bunu kullanabildi nasil? object yaratti setName'i kullandi ve yazdi
     }

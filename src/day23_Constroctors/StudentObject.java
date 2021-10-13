@@ -14,7 +14,7 @@ public class StudentObject {
 
         Student obj1=new Student();
 
-        obj1.setStudentInfo("Mesut");//1
+        obj1.setStudentInfo("Mesut");//1  // kisi icin static
         obj1.getInfo();
 
         Student obj2=new Student();      // bu objectlerin her biri sifirdan basladigi  icin mi sayimiz ayni kalmiyor??????

@@ -13,6 +13,7 @@ public class c4_StringMethods2 {
         String word4=new String("Hello");
         String word5="Java";
 
+
         System.out.println(word1.equals(word2));
         System.out.println(word1.equals(word3));
         System.out.println(word2.equals(word3));
