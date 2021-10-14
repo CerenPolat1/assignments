@@ -19,6 +19,8 @@ public class Fox extends Animal {
 //        System.out.println(name + " is growing ");
 //    }
 
+
+    //yukaridaki yolu izlersen cok uzun surer ama exdends sayesinde direkt yazmadan kullaniliyorsun, zaman kazandirir
     //toString() inherited
 
     public void smileFox(){

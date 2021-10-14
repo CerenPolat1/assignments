@@ -14,9 +14,9 @@ public class ShoeObject2 {
         shoe2.getShoeInfo();//null , 0 , null
         myLibraryMethods.stars();
 
-//        shoe1.brand="addidas";
-//        shoe1.size=10;
-//        shoe1.color="yellow";
+        shoe1.brand="addidas";
+        shoe1.size=10;
+        shoe1.color="yellow";
 //        instead of calling each variable that written above
 //        we can create a method under shoe class
 //        that will assign our variables
@@ -34,7 +34,7 @@ public class ShoeObject2 {
         //since shoe.brand returns string i can store them in string array
 
         Shoe [] shoes={shoe1 ,shoe2};
-        shoes[0].getShoeInfo(); //index0, yani shoe1 i alacak
+         shoes[0].getShoeInfo(); //index0, yani shoe1 i alacak
         //adidas , 10 , yellow
         System.out.println("shoes[1].size = " + shoes[1].size);
         //shoes[1].size = 7

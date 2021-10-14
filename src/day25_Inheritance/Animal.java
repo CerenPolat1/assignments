@@ -45,6 +45,8 @@ public class Animal {
     public double weight;
     public String color;
 
+    //alttaki methodlari niye olusturduk. cunku tum hayvanlar icin ortak ozeelik icerir
+
     public void eat(String food){
         System.out.println(name + " is eating " + food );
     }

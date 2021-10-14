@@ -61,6 +61,8 @@ public class Shoe {
         brand = shoeBrand;
         size = shoeSize;
         color = shoeColor;
+
+        //eger bu methodun icine println koymazsan bu run etmez
     }
 
      //toString sana sonraki ShoeObject'lerde hashtag almani onliycek

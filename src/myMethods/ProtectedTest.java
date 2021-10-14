@@ -13,10 +13,12 @@ public class ProtectedTest extends ProtectedExample {
         ProtectedExample obj1 = new ProtectedExample();
         obj1.publicNumber = 10;//everywhere
         // obj1.priaveNumber=20;//extended olup olmasi fark etmez, private ayni isler just works only same class
-        obj1.protecNumber = 20;//it usues in same package or if it is extended also,if variable is static variable
+        obj1.protecNumber = 20;//it uses in same package or if it is extended or if variable is static variable
 
         //obj1.defaultVrble=40;//only same package
 
 
+
+        //yani protected i da extended yaparak kullanabiliyoruz
     }
 }

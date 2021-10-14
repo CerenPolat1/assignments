@@ -32,6 +32,9 @@ public class ShoeObject {
         shoe1.getShoeInfo(); // nike , 9 , green
                             //brand, size, color
 
+        System.out.println(shoe1); //nike/green/9
+        shoe1.setShoeInfo("ac",9,"pink"); //neden run etmedi cunku methodun icinde println yok
+
 //        //neden bu sirayla aldi cunku yanda ustte asagidakini yazmisiz
 //        System.out.println("shoe1.brand = " + shoe1.brand);//null
 //        System.out.println("shoe1.size = " + shoe1.size);//0
