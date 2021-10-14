@@ -11,10 +11,11 @@ public class Person {
 
 
     public Person(String name){     //bu Constructor nereden anladik cunku class'in ismiyle ayni, neden yarattik peki
+                                   // bunu(name) )direkt objectin icine isleyebilmek icin
         this.name=name;
     }
 
-//    public void nameal (String name){   // contructor yerine bunu da yaratabilirdin
+//    public void nameal (String name){   // contructor yerine bunu da yaratabilirdin, daha sonra objectin adini assign yaparak okuturdun
 //        this.name=name;
 //
 //    }

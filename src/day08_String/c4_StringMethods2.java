@@ -48,16 +48,18 @@ public class c4_StringMethods2 {
         boolean b3=str3.equalsIgnoreCase(str1); //true
 
         if (b1){//true java will check inside this if condition
-            System.out.println("b1 is true"); //this line will be excuted
+            System.out.println("b1 is true"); //this line will be executed
+
             if (b2){//false since if cond. is false jawa wont check inside this if
                 System.out.println("b2 is true ");
+
                 if (b3){
                     System.out.println("b3 is true");
                 }else {
                     System.out.println("b3 is false");
                 }
             }else { // true
-                System.out.println("b2 is false"); //this line will be also excuted
+                System.out.println("b2 is false"); //this line will be also executed
             }
         }else{
             System.out.println("b1 is false");

@@ -13,23 +13,29 @@ public class AnimalObject {
         System.out.println("animal1.age = " + animal1.age);
 
         Bird bird1=new Bird();
+
+        // normalde bu age, name, grow, move variable'larini kullanmak icin her hayvan icin ayri ayri olusturman gerekir neden
+        //cunku animal'dakiler animal classina ait, bird'u secip animal class'ina ait variableri kullanamazsin
+        //hepsinin kendi class'ina ait olmasi lazim
+        //ama interid kullanabildigimizden Bird class'ina gelip yanina extends Animal yazarak inheritance yapiyoruz
+        //ve bu sekilde bu variable'lari kullanabiliyoruz
         bird1.age=5;
         bird1.name="bird1";
-        bird1.grow();
+        bird1.grow();  //bunlar neden mor degil cunku bunlari bird class'da kullanmadik o yuzden
         bird1.move();
 
         bird1.fly();
 
         //animal1.fly();
         //animal1 is object that comes from Animal class
-        //does animal class has fly method == no
+        //does animal class has fly method? == no
         //so you cant use fly method
 
         bird1.eat("bread");
         //bird1 is object that comes from Bird class
-        //does bird class has eat method  == yes it has
-        //it is taking from parent which i animal
-        //inheritence will help child class to have whatever you have in the parent.
+        //does bird class has eat method??  == yes it has
+        //it is taking from parent class (animal)
+        //inheritance will help child class (bird)  to have whatever you have in the parent.
 
 
         Fox fox1=new Fox();
@@ -43,8 +49,11 @@ public class AnimalObject {
         fox1.move();
         fox1.smileFox();
 
-        // bird1.smileFox();
+        // bird1.smileFox();  // it is unique for fox
 
+
+        //parent class'da tostring methodunu yarattigindan diger child class'lar da hascode'suz calisti
+        //childclasslarda tekrardan tostring yaratmana gerek kalamdi
         System.out.println(bird1);
         System.out.println(fox1);
         System.out.println(animal1);

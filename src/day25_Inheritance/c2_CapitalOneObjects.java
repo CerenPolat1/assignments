@@ -5,10 +5,11 @@ public class c2_CapitalOneObjects {
     public static void main(String[] args) {
         ///main goal is to create customers for capital one
 
-        c1_BankAccountCapital accont1=new c1_BankAccountCapital("Ozge","Karabulut");
+        c1_BankAccountCapital accont1=new c1_BankAccountCapital("Ozge","Karabulut");  //BURANIN ICINE  NEDEN YAZDIK CUNKU
+                                                     // BU CONSTRUCTOR ILE BAGLANTILI  O YUZDEN ICINI DOLDURMAMIZI ISTEDI
 
         System.out.println(accont1.firstName);
-        //accont1.accountHolder priavate variable no access
+        //accont1.accountHolder       // NEDEN BUNLARA YAZAMADIK CUNKU priavate variable no access
         //accont1.balance
         //encapsulation
         System.out.println("accont1.getBalance() = " + accont1.getBalance());
@@ -16,14 +17,22 @@ public class c2_CapitalOneObjects {
         accont1.setBalance(250);
         System.out.println("accont1.getBalance() = " + accont1.getBalance());
 
+        System.out.println(".............");
+
         accont1.deposit(340);
         System.out.println("accont1.getBalance() = " + accont1.getBalance());
+
+        System.out.println("/////////");
 
         accont1.withdraw(50);
         System.out.println("accont1.getBalance() = " + accont1.getBalance());
 
+        System.out.println("------------");
+
         accont1.withdraw(100);
         System.out.println("accont1.getBalance() = " + accont1.getBalance());
+
+        System.out.println("=+++++++++++++++++");
 
         accont1.avaliableBalance();
 
@@ -32,9 +41,10 @@ public class c2_CapitalOneObjects {
 
         System.out.println(accont1);
 
+        System.out.println("///////////////");
         c1_BankAccountCapital obj2=new c1_BankAccountCapital("bahast","abdulla");
-        obj2.avaliableBalance();
         System.out.println(obj2);
+        obj2.avaliableBalance();
 
         obj2.deposit(1000);
         System.out.println(obj2);
