@@ -28,6 +28,7 @@ public class Car {
         return brand+" - " + year;
     }
 
+    @Override  //bu nasil overriding oldu cunku parent;daki tum codelari cek etti ve objecti aldi
     public  String toString(){
         return brand + " / " + year + " / "+ price + " / "+ color;
     }

@@ -1,4 +1,4 @@
-package interview_quqestions;
+package interview_Questions;
 
 public class interview_question_list {
 
