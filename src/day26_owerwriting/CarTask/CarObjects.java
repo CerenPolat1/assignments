@@ -5,7 +5,8 @@ public class CarObjects {
     public static void main(String[] args) {
 
         //parent class is Car
-        //childs are  Audi BMW Toyota
+        //children are  Audi BMW Toyota
+
         Audi audi=new Audi();
         audi.startCar();
         audi.stopCar();

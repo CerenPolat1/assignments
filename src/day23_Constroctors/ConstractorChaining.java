@@ -39,7 +39,8 @@ and make their chain which makes the program more readable.
         //cunku this() ConstractorChaining' i calistirir ve sadece onu cagirir, 10 defa onu dondurecek gibi dusun,
 
 
-        this("hi");                                ////chain method icinde sadece 1 kere this() kullanabiliyorsun,ayrica sadece methodun hemen altinda kullanabiliyorsun
+        this("hi");                                ////chain method icinde sadece 1 kere this() kullanabiliyorsun,
+                                                     // ayrica sadece methodun hemen altinda kullanabiliyorsun
                                                     // ve chainin ana methoduyla baglanti kurmus oluyor
         System.out.println("int constr");
         method2();
@@ -72,11 +73,11 @@ and make their chain which makes the program more readable.
 ///to be able to call constructor you will need to use this() , this(10) , this("hello) etc
 //chainleri birbirine this() ile bagliyorsun
 
-//you can only call one costructor from another one
+//you can only call one constructor from another one
 //methodun icine 1'den fazla this() koyamiyorsun
 
 //this ( ) keyword has to be first line in your constructor
-//sadece methodun hemen altina yazabilirsin baska yere yazarsan eror verir
+//sadece methodun hemen altina yazabilirsin baska yere yazarsan error verir
 
 // //this: refers to object instances
 //        //this.: instances of the object

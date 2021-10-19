@@ -1,10 +1,21 @@
 package day26_owerwriting;
+
+
+
+
 //    //method overriding: same method name, same parameter, same return-type  (MUST)
 ////				   MUST happen in the sub class
-////				   access modifer MUST be same or more visible
+////				   access modifer MUST be same or more visible(private, public atc.)
 ////				   ONLY the instance methods can be overridden
 ////				   @Override annotation MUST be applicable
-////
+
+//   *********** overriding olmasi icin su kurallar lazim: ****************
+// 1-her seyiyle birebir ayni methodlar olmali (same method name, same parameter, same return-type)
+// 2-methodlardan biri sub class olmali ya da biri parent'da biri child classda olmali
+// 3- sadece instance method icinde kullanilir
+// 4-override annotation methodta gorunmeli
+
+
 
 
 class test5{
@@ -20,7 +31,7 @@ public class c4_MethodOverriding extends test5{
     //after extending method2 will be inherited
 
 
-    //overloading means same method name with different loads
+    //overloading means same method name with different loads:
 
     public void method1(int number){
 
@@ -37,7 +48,7 @@ public class c4_MethodOverriding extends test5{
 
     @Override // bunun icin ayni isimli method olmali biri parent'da biri child'da olmali ki overriding olsun
     public void method2(){
-        System.out.println("owerwrite method2 bec this class and prent class have same ");
+        System.out.println("owerwrite method2 bec this class and parent class have same ");
     }
 
     public void hello(String str,String str2){
