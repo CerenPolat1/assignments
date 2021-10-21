@@ -2,7 +2,7 @@ package myMethods;
 
 import day25_Inheritance.ProtectedExample;
 
-public class ProtectedTest extends ProtectedExample {
+public class ProtectedTest extends ProtectedExample {  //ProtectedExample:child class
 
     // protected int protecNumber;
     //    public int publicNumber;

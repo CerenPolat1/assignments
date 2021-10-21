@@ -49,7 +49,8 @@ public class c4_MethodOverriding extends test5{
     @Override // bunun icin ayni isimli method olmali biri parent'da biri child'da olmali ki overriding olsun
     public void method2(){
         System.out.println("owerwrite method2 bec this class and parent class have same ");
-    }
+    } // parent'dakini cagirip overriding ile bu methodun icini dolduruyoruz, guncelliyoruz ama degismek zorunda da degiliz
+    //overriding yaptigimizda icine ne koyarsask sistem onualir, aksi halde bos birakir
 
     public void hello(String str,String str2){
 

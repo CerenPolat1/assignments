@@ -44,6 +44,9 @@ IN MY WORD, ENCAPSULATION means THE VARIABLES OF THE CLASS WILL BE HIDDEN FROM T
     //this is encapsulation
 //yani private olani public hale getirebilme ve kullanbilme yolu: set and get
 
+
+    //ana class'dan olusturuyorsun get ve set'i sonra object'den cagiriyoruz
+
     public void setName(String name){
         this.name=name;   //private'daki name'i cekti // EncapObject'de bunu kullanabildi nasil? object yaratti setName'i kullandi ve yazdi
     }

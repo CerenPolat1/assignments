@@ -20,7 +20,7 @@ public class c3_ExceptionHandling {
         try{
             System.out.println("Waiting for 5 second");
             Thread.sleep(5000);  //checked exception(.InterruptedException;)
-        }catch (InterruptedException e){ //buradaki e, object
+        }catch (InterruptedException e){ //buradaki e, object  //java interrupt istemez cunku surekli calismak ister
             //Exception is the parent of all the exception types
             //you can use Exception to catch
             System.out.println("e.getMessage() = " + e.getMessage()); //message yerine baska secenekler de cikiyor biz bunu sectik

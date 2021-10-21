@@ -11,10 +11,13 @@ public class c3_AccessModifiers {
     //Default: The access level of a default modifier is only within the package. //SADECE PACKAGE'I KAPSAR
     // It cannot be accessed from outside the package.
     // If you do not specify any access level, it will be the default.
+    // ayni package, different class
 
     //Protected: The access level of a protected modifier is within the package     ////SADECE PACKAGE'I KAPSAR
     // and outside the package through child class.
     // If you do not make the child class, it cannot be accessed from outside the package.
+    //ayni package different class ama cagirabilmek icin child claslar olmali--protected=child class
+
 
     //Public: The access level of a public modifier is everywhere.
     //public olmasi demek  her yerden erisimin olmasi demek

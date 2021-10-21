@@ -1,4 +1,4 @@
-package day28_Abstraction.Phone;
+package day28_Abstraction.Phonee;
 
 public abstract class Phone {
 
@@ -23,10 +23,10 @@ public abstract class Phone {
 
     //attributes:
 
-    String brand;
-    String model;
-    int price;
-    int size;
+    public static String brand;  //bunu static yapmazsan static block error veriri bunu yazdiginda
+    public String model;
+    public double price;
+    public double size;
 
     //abstract methods
 
