@@ -12,4 +12,11 @@ public abstract class Driver {
     public void closeBrowser(){
         System.out.println("Closing Browser");
     }
+    public static void abc(){     //you can add static or instace method in abstract class.
+        System.out.println("askfb");
+    }
 }
+
+//// ....important.....
+
+// abstract classin icinde regular methodlar da kullanilabilir

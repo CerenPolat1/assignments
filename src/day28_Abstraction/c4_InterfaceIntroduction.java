@@ -30,6 +30,9 @@ public interface c4_InterfaceIntroduction {
 //    instance methods
 //    blocks
 
+    // if you dont have constructor, can we create object from interfaces???
+    //NOOO, object only can create from class..
+
     //void method1(){} we cant have instance method in interface
 
     //class 5'de neden sadece bunlardan 3,4,5 aldi cunku onlar abstrsact ve body'si yok

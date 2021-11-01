@@ -53,3 +53,5 @@ class test5 extends  test4 { // class only exdends one class
 // o yuzden, public class c6_abstractionPractice2 /exdend/ test1,test2,test3 bunun icine test5 yazilmaz
 
 //A class can inherit multiple interfaces (implements)
+
+

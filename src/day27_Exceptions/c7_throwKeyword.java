@@ -17,6 +17,7 @@ public class c7_throwKeyword {
 
         try {
             throw new ArithmeticException(); //throw create ArithmeticException exception
+            //neden codeun icine exception atiyoruz, bazen gerekli durumlarda kullanilabiliyor.
 
 
         } catch (Exception e) {
@@ -27,25 +28,10 @@ public class c7_throwKeyword {
 
     }
 
-    public class TestThrow1 {
-        //function to check if person is eligible to vote or not
-        public void validate(int age) {
-            if (age < 18) {
-                //throw Arithmetic exception if not eligible to vote
-                throw new ArithmeticException("Person is not eligible to vote");  //throw boyle de kullanilir
-                //yani bu yolla exception'i uzaklastirmis olursun
-            } else {
-                System.out.println("Person is eligible to vote!!");
-            }
-        }
 
-    }
 }
 
-//3 ways to get rid of exceptions:
-//1- try-catch
-//2-throws
-//3-throw
+
 
 
 

@@ -62,7 +62,7 @@ package day06_Nestedlf_Switch;
             }else if (attend=="No"){
                 result = "---------Student was Absent--------";
 
-            }else { //this will cover invalid characters for atttendence
+            }else { //this will cover invalid characters for attendence
                 result = " !!!!!! Invalid Text for Attendence Please check Attendece !!! "+ attend;
             }
 

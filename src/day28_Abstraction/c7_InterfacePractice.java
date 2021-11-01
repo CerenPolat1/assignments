@@ -41,6 +41,7 @@ public interface c7_InterfacePractice {
 //        return super.hashCode();
 //    }
 //}
-//    //neden object yaratildiginda error verir cunku interfacede insatnce veya contructor kullanilmaz.
+//    //neden object yaratildiginda error verir cunku interfacede instance veya constructor kullanilmaz.
+
 
 }

@@ -38,7 +38,7 @@ trim()               Removes whitespace from both ends of a string              
 
         String str = "Hello";
         //01234
-        //index numbers always starts from 0 in the java
+        //index numbers always start from 0 in the java
 
         char letter0=str.charAt(0); //H
         System.out.println(letter0);
@@ -59,7 +59,7 @@ trim()               Removes whitespace from both ends of a string              
         String lastName="Rafiq";
 
         System.out.println(firstName + " " + lastName);
-        System.out.println(firstName.concat(" " + lastName));
+        System.out.println(firstName.concat(" " + lastName)); //" " -> space koymak icin
         System.out.println(firstName.concat(" ").concat(lastName));
 
         String fullName = firstName.concat( " ").concat(lastName);
@@ -70,7 +70,7 @@ trim()               Removes whitespace from both ends of a string              
 
         //System.out.println(fullName.concat(letter0)); // Basoz RafiqH
         //concat method will only accept string
-        //i cant concat other then string
+        //i cant concat other than string
         System.out.println(fullName.concat(""+letter0));//Basoz RafiqH  //text + letter == text
 
         int score=90;

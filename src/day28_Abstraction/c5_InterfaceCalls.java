@@ -20,6 +20,9 @@ public class c5_InterfaceCalls implements c4_InterfaceIntroduction{
      */
 
     //neden sadece alttakiler overriding oldu cunku onlar abstracti ve bu sekilde body'leri oldu.
+
+    //only abstract methods has to be overridging
+
     @Override
     public void method3() {
 

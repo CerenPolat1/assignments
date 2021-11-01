@@ -36,16 +36,17 @@ public class c4_StringMethods2 {
         String str2="java";
         String str3="JAvA";
 
-        System.out.println("*****************");
+        System.out.println("************---------");
         System.out.println(str1.equals(str2)); //false
         System.out.println(str1.equalsIgnoreCase(str2)); //true
-        System.out.println(str1.equalsIgnoreCase(str3));
+        System.out.println(str1.equalsIgnoreCase(str3)); //true
 
         System.out.println("*****************");
 
         boolean b1=str1.equalsIgnoreCase(str3);// true
         boolean b2=str1.equals(str2);           //false
         boolean b3=str3.equalsIgnoreCase(str1); //true
+        System.out.println("..........");
 
         if (b1){//true java will check inside this if condition
             System.out.println("b1 is true"); //this line will be executed

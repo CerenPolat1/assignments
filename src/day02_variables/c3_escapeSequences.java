@@ -24,7 +24,7 @@ public class c3_escapeSequences {
         System.out.println("Hello \n\tWorld \tJava");
 
 
-        // \\ -- this will print single slash on the consule
+        // \\ -- this will print single slash on the console
         System.out.println("\\");
         System.out.println("/");
 

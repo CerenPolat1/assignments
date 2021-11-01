@@ -15,12 +15,12 @@ public class c1_ternaryContinue {
         //if number is not between 0-100 grade 0 ,,"invalid number"
 
         public static void main(String[] args) {
-            int score=55;
+            int score=70;
             char grade='0';
 
             String result="";
 
-            if (score>=85 && score <=100){//between 100 to 85 is grade A
+            if ( score>=85 && score <=100){//between 100 to 85 is grade A
                 grade='A';
             }else if (score >= 70 && score <85){    //between 70 to 84 is grade B
                 grade='B';

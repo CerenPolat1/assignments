@@ -5,13 +5,13 @@ package day26_owerwriting;
 
 //    //method overriding: same method name, same parameter, same return-type  (MUST)
 ////				   MUST happen in the sub class
-////				   access modifer MUST be same or more visible(private, public atc.)
+////				   access modifer MUST be same or more visible(private, public etc.)
 ////				   ONLY the instance methods can be overridden
 ////				   @Override annotation MUST be applicable
 
 //   *********** overriding olmasi icin su kurallar lazim: ****************
 // 1-her seyiyle birebir ayni methodlar olmali (same method name, same parameter, same return-type)
-// 2-methodlardan biri sub class olmali ya da biri parent'da biri child classda olmali
+// 2-methodlardan biri sub class olmali yani biri parent'da biri child classda olmali
 // 3- sadece instance method icinde kullanilir
 // 4-override annotation methodta gorunmeli
 

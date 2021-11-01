@@ -41,7 +41,7 @@ public class c4_switchStatement {
                 case 12 : monthName ="Dec";
                     break;
                 default: monthName = " Invalid number entered Please check number";
-                    //break; optinal to use because we dont have any case left
+                    //break; optional to use because we dont have any case left
 
             }
 
@@ -49,7 +49,7 @@ public class c4_switchStatement {
 
             char letter='b';
             String result = "Hello ";
-            //3 casse with a b c
+            //3 casses with a b c
             //if the case is a result should be Hello a
             //if the case is b result should be Hello b
             //if the case is c result should be Hello c
@@ -69,7 +69,7 @@ public class c4_switchStatement {
                     result += "b"; //result= hello b
                     break;
                 case 'c':
-                    result += "c"; //hello bc
+                    result += "c"; //hello c
                     break;
                 default:
                     result += "Invalid";

@@ -9,8 +9,8 @@ public class c5_ifStatement {
         boolean bool1 = 10 > 5;//true
         boolean b2 = 10 == 12; //false
 
-        if (2 > 2) {//openiing bracket for if //false
-            //if if condition is false java will not check inside if statemnt
+        if (2 > 2) {//opening bracket for if //false
+            //if if condition is false java will not check inside if statement
             System.out.println("hello");
             System.out.println("hello");
             System.out.println("hello");

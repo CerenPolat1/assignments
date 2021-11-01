@@ -3,7 +3,7 @@ package day05_ifContinue;
 public class c5_ternary {
     //this is just another way of using if else block
 
-    //create an java program that prints max number from 2 number
+    //create a java program that prints max number from 2 number
 
     public static void main(String[] args) {
 
@@ -17,7 +17,7 @@ public class c5_ternary {
         System.out.println(message);
 
         if (number1 > number2){ //10 >20 false
-            max = number1; //it is not going to chech here
+            max = number1; //it is not going to check here
         }else {//this will be true
             max =number2; // max == 20;
         }
@@ -34,13 +34,14 @@ public class c5_ternary {
         int max2;
 
         max2 = (number3 > number4) ? number3 : number4 ;
-        //if present ?
-        // else presnet  :
+        //if : ?
+        // else ->  :
         System.out.println(max2);
 
-        String  result = "";
 
-        result = (false) ? "Java" : "Python" ;
+        String  result = "false";
+
+        result = (false) ? "Java" : "Python" ;  //neden false aldik, cunku condition yarattik false ise result java al diyor ama belirtilmediginden true kabul ediyor.
 
         System.out.println(result);
 

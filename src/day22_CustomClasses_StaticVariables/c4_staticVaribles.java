@@ -49,7 +49,7 @@ public class c4_staticVaribles {
 
         c4_staticVaribles object1=new c4_staticVaribles();  //OBJECT YARATIYORUZ INSTANCEI KULLANMAK ICINll
         System.out.println(object1.instanceVariable);//25
-
+        System.out.println("////");
         System.out.println(staticVariable); // for static variables since they will have one copy for all objetcs
         //you dont need to create an object to print them
         //staticVariable'da obr=ject yaratmaya gerek yok sadece instance icin yaratiyoruz
@@ -79,8 +79,8 @@ public class c4_staticVaribles {
 
         myLibraryMethods.stars();
 
-        //all the objects will have one copy for static variables
-        //all the objects will return same result if variable is static
+        //all  objects will have one copy for static variables
+        //all objects will return same result if variable is static
 
         System.out.println(object1.staticVariable);
         System.out.println(object2.staticVariable);

@@ -93,7 +93,7 @@ public class c4_variables {
         //        long             8 bytes            Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
         long l1=200;
         long l2=123123123133L;//when you move out int range compiler needs to know what is this number
-        //that is why we pass L at the end to tell java this is Long numebr
+        //that is why we pass L at the end to tell java this is Long number
 
         System.out.println(l1);
         System.out.println(l2);

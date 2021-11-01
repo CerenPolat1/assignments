@@ -25,7 +25,7 @@ public class c1_ScannerClass {
 
         System.out.println("Insert your byte number");
         byte b1 = input.nextByte();
-        //nextbyte method will ask user to enter a number and then it will acccept that number and assigned to b1 variable
+        //nextbyte method will ask user to enter a number and then it will accept that number and assigned to b1 variable
         System.out.println(b1);
 
         System.out.println("enter int number");

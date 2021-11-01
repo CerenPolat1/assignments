@@ -15,6 +15,7 @@ public class c3_SwitchPractice {
     //Integer,Short,Byte,Char
 
     public static void main(String[] args) {
+
         //create a logic that will check the number and print the day name
 //        byte b1=1;
 //        short s1=2;

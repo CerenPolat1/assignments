@@ -25,7 +25,7 @@ class test2{
 }
 public class c2_ConstructorSuper extends test2{
 
-    //if you extend a parent class that has more then one constructor
+    //if you extend a parent class that has more than one constructor
     //you will need to tell java which constructor should be executed
     //EGER BIRDEN FAZLA YARATIRSAN ERROR VERIR
 

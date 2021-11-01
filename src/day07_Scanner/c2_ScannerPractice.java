@@ -38,7 +38,9 @@ public class c2_ScannerPractice {
         System.out.println("Enter third number ");
         int num3=scanner.nextInt();
 
-        //        double > float > long > int > short > byte
+
+       // byte < short < int < long < float < double
+
         int maxNumber = (num1 > num2 && num1 >num3) ? num1 : (num2 > num1 && num2 >num3) ? num2 : num3;
 
         System.out.println(" max number is "+ maxNumber);

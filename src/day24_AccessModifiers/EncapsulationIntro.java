@@ -40,7 +40,7 @@ IN MY WORD, ENCAPSULATION means THE VARIABLES OF THE CLASS WILL BE HIDDEN FROM T
     //there should a way to do this
 
 
-    //2.Provide public setter and getter methods to modify and view the variables values.
+    //****** 2.Provide public setter* and getter* methods to modify and view the variables values.
     //this is encapsulation
 //yani private olani public hale getirebilme ve kullanbilme yolu: set and get
 
