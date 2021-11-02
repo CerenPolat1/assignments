@@ -31,8 +31,8 @@ public class instance_static {
        obj.instance( "Iphone","Apple"); //multiple copies
 
 
-        instance_static objj= new instance_static();
-        objj.abcde(); //we didnt assign anything for this  bec. we have static variable inside that method:Applee
+        instance_static obj2= new instance_static();
+        obj2.abcde(); //we didnt assign anything for this  bec. we have static variable inside that method:Apple
         //why we get Apple(brand) but didnt get Iphone(cellphone)
         //because   static-one copy             instance-multiple copies. That's why we must assign cellphone again
 
@@ -68,23 +68,6 @@ public class instance_static {
 
      4- instance variable can only have multiple copies from object
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

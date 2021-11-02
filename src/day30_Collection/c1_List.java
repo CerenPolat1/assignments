@@ -1,10 +1,12 @@
 package day30_Collection;
+
+
 // DAta Structurs
 //        1 Array (fixed)
 //        2 Collection (Dynamic)
 //        3 Map
 
-//   ***Collection is data structure
+//   ***Collection is a data structure
 
 //                  ******* *Arraylist is coming from collection.
 
