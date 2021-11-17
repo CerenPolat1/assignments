@@ -3,31 +3,35 @@ package day31_Map;
 
 public class c4_GarbageCollector {
 
+    //garbage collector,heap memeoryide yer alan pool'da kullanilmayanlari, referans gosterilmeyenleri, cagirilmayanlari siler neden, daha temiz bir hafiza icin
     public static void main(String[] args) throws Throwable {
 
-        String str =new String("Hello"); // this one will be collected by java garbage collector
+        String str =new String("Hello"); // this one will be collected from memory by java garbage collector
         str = new String("World");
         //after i removed reference from hello by reassing str to "World"
-        //java garbage collavter will remove hello from the memory
+        //java garbage collacter will remove hello from the memory
 
-        // String str2=new String("Hello");
+        // String str2=new String("Hello");// bu kullanilmadiginda silinecek, ne zaman silinir sure olarak bilmiyoruz ama
+        //referans gosterilmediginde mesela bir object;de falan siliniyor
 
         Integer number=new Integer(123); // will be collected by java garbage collacter
-        number = new Integer(10);
+        number = new Integer(10); //bu kalir
 
-        c4_GarbageCollector garbage1=new c4_GarbageCollector();
+        c4_GarbageCollector garbage1=new c4_GarbageCollector(); //object de kullanilmasa bu da silinecek
 
         new c4_GarbageCollector(); // this will be collected by java garbage collacter
         //java garbage collacter will make java memory more  reausable
 
 
         Byte b1=new Byte((byte) 101);// this will be collacted
-        b1=null;
+        b1=null; //bunlar neden silinmiyor cunku bunlar cagrildi ve kullanildi
 
         c4_GarbageCollector obj2=new c4_GarbageCollector();
         // obj2.finalize();
-        //finalize method is called by farbage collacter to sent our object to garbage
 
+        //finalize method is called by garbage collacter to sent our object to garbage
+
+ // ********finalize method, collector'u beklemeden garbage gondder der.
 
     }
 }

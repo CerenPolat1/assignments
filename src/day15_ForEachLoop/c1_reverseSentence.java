@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class c1_reverseSentence {
 
-    ////create a condtion that will reverse given sentence
+    ////create a condition that will reverse given sentence
 //        //ex: Java is fun
 //        //output should be fun is java
-////create a condtion that will reverse given string
+////create a condition that will reverse given string
 //        //ex: Java is fun
 //        //output should be nuf si avaJ
 
@@ -15,7 +15,7 @@ public class c1_reverseSentence {
         String sentence="Java is fun ";
         //fun is java
         String [] splitedSentence=sentence.split("  ");//[Java, is, fun]
-        System.out.println (Arrays.toString(splitedSentence)); //array olarak gostermek icin array.to string uygulsniyor
+        System.out.println (Arrays.toString(splitedSentence));
 
 
         String reverseSentence="";//store result from last index to first index

@@ -15,7 +15,7 @@ public class c1_wrapperClasses {
     ///non primitives object and objets are getting created by classes
 
     //Data Structure:
-    //	1. Array
+    //	1. Array --hepsini kabul eder:primitive-object
     //	2. Collection ==> only accepts objects
     //	3. Map ==>  only accepts objects
     //

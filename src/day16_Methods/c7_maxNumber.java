@@ -4,6 +4,7 @@ public class c7_maxNumber {
 
     ///create a method that will accept 2 different number
     //and  it will print me the maximum one
+
     public static void maxNumber(int number1 , int number2){ // parameterslar(int number1 , int number2) disinds scannerla da yapilir
         if (number1 > number2){ //first number 1 max
             System.out.println(number1 + " is bigger then "+number2);

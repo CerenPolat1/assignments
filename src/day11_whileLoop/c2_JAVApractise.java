@@ -20,11 +20,14 @@ public class c2_JAVApractise {
         for (int i =1; i < 51 ; i++){ //6
 
             if (i%2 ==0 && i%3==0){
-                result +="JAVA ";
+                result +="JAVA ";     //kendisini sayi olarak gostermesi icin result kullandik
+
             }else if (i %3==0){
                 result +="VA ";
+
             }else if (i %2 ==0){
-                result +="JA ";
+               result +="JA ";
+
             }else{
                 result += i + " ";
             }

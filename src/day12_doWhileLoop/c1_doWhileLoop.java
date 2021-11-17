@@ -16,7 +16,7 @@ public class c1_doWhileLoop {
             System.out.println("While loop");
         }
 
-        do {//do will run at least one time no mather condition is true or false
+        do {   //do will run at least one time no mather condition is true or false
             System.out.println("do while loop ");
         }while (number <10 );
 
@@ -25,12 +25,15 @@ public class c1_doWhileLoop {
 //            System.out.println("hello");
 //        }while (number==10);
 
+
         int number2=2;
 
         do {
             System.out.println("Number 2 is "+number2);//2 3 4 5 6 7 8 9
             number2++;//3 ... 9 10
         }while (number2 < 10);//3 ...9 10
+        System.out.println(number2);
+////////////////////////////////////////////////////
 
         int number3=3;
         do {

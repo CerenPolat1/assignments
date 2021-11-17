@@ -12,7 +12,7 @@ public class c2_ForLoop {
         //ending point
         //iteration
 
-        //this for loop will be running until it reachs to ending point
+        //this for loop will be running until it reaches to ending point
         //start point is 0
         //end point is 10
         //iterartion is +1
@@ -23,7 +23,7 @@ public class c2_ForLoop {
 
         //start point is 0
         //end point is 7
-        //iterartion is +2
+        //iteration is +2
         for (int i =0; i<8 ; i+=2){//0 2 4 6 8
             System.out.println("java");//0 2 4 6 -- 4 times
         }//2 4 6 8

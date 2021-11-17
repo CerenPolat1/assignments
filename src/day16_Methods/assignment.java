@@ -8,10 +8,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class assignment {
-
-public static void calculation (int one, int two) {
-
-//// write a method that will take 3 parameters
+    //// write a method that will take 3 parameters
 //    // 2 numbers and one operator
 //    // it will do the calculation
 //
@@ -20,6 +17,9 @@ public static void calculation (int one, int two) {
 //
 //    //ex 15 3 *
 //    //result 45
+
+
+public static void calculation (int one, int two) {
 
 
     int sum = one + two;
@@ -42,7 +42,9 @@ public static void main (String [] args) {
     //thats why, i need to use split, then i need to use array.tostring to store like string
 
     String[] news= sentence1.split(" "); // put space bec i wanna divide words
-    //System.out.println(Arrays.toString(news));
+
+    System.out.println(Arrays.toString(news));
+    System.out.println("#######");
     String word1="java";
     String word2="javascript";
     int count=0;  // why i use int bec. i wanna see how many java included in this sentence

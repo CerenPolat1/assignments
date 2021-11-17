@@ -24,7 +24,7 @@ public class c5_reverseString {
         for (int i =name.length()-1 ; i >=0 ;i--){
             result += name.charAt(i); // char kullandik cunku her bir harfi yazdiracak
             //peki neden name.charAt(i) kullandik da error vermedi, cunku name.charAt(i)'den once "" yazmak gerekirdi
-            //cunku zaten result icine "" dahil ettigimizden bir daha yazmamiza gerek kalmadi.
+            //cunku zaten result String
         }
         System.out.println(result);
     }

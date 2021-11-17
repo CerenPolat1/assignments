@@ -2,11 +2,13 @@ package day27_Exceptions;
 
 public class c6_throwsKeyword {
 
-    public static void main(String[] args) throws InterruptedException  { //throws'dan sonra parent oldudundan Exception da yazabilirsin
+    public static void main(String[] args) throws InterruptedException { //throws'dan sonra parent oldudundan Exception da yazabilirsin
 
         //there is 2 way to handle exceptions so they dont stop compiler from running
         //1- you can use try/catch blocks to handle
         //2- you can use throws keyword to handle
+
+        //you csn see it again in other class or packages
 
         //throws keyword will be assigned to your method signature
 

@@ -40,12 +40,12 @@ public class c2_multipleDimensionArray {
 
         System.out.println("++++++++++++");
         //this will give you specific length of container
-        System.out.println(arr2[0].length);
+        System.out.println(arr2[0].length+ "-------------");
         System.out.println(arr2[1].length);
         System.out.println(arr2[2].length);
         //System.out.println(arr2[3].length); out of index
 
-        //if i want to print all the numbers from specific container
+        //if i want to print all numbers from specific container
         int [] container0=arr2[0]; // 1 ,2 ,3
         System.out.println(Arrays.toString(container0));
 

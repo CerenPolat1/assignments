@@ -26,17 +26,18 @@ public class c2_MapContinue {
 
         LinkedHashMap<String,Integer> scoreA=new LinkedHashMap<>();
         LinkedHashMap<String,Integer> scoreB=new LinkedHashMap<>();
-        System.out.println("scoreA = " + scoreA);// {}
+        System.out.println("scoreA = " + scoreA);// {} neden boyleler  cunku listeler bos burada
         System.out.println("scoreB = " + scoreB);// {}
 
         ////    //    keySet(): returns all the keys from the map as Set
         //        //keyset will return the keys from the map
-        for (String eachStudent : studentsScore.keySet()){
+
+        for (String eachStudent : studentsScore.keySet()){  //keyset student namelerine ve scorelarini verecek.
             int eachStudentScore= studentsScore.get(eachStudent);
             //use get method to ask for key and return their values
 
             if (eachStudentScore >= 90){
-                scoreA.put(eachStudent,eachStudentScore);
+               scoreA.put(eachStudent,eachStudentScore);
             }else if (eachStudentScore >= 80 && eachStudentScore <90){
                 scoreB.put(eachStudent,eachStudentScore);
             }

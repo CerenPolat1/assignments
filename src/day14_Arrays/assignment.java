@@ -5,7 +5,7 @@ public class assignment {
         //Q1 What is an Array?
 
 //
-//        Array is a collection of similar data types. It can not have different data type. It can hold both primitive types (int, float, double) and object references.
+//        Array is a collection of similar data types. It can have different data type. It can hold both primitive types (int, float, double) and object references.
 //                It is fixed in length i.e static in nature.
 //        Arrays are created on the heap memory not on the stack.
 //                Accessing an invalid index of an Array will cause exception.
@@ -61,7 +61,8 @@ public class assignment {
 //        According to Oracle docs,
 //        ArrayStoreException is a runtime exception. Array must contain the same data type elements.
 //
-//        This exception is thrown to indicate that an attempt has been made to store the wrong type of object into an array of objects. In other words, if you want to store the integer Object in an Array of String you will get ArrayStoreException.
+//        This exception is thrown to indicate that an attempt has been made to store the wrong type of object into an array of objects.
+//        In other words, if you want to store the integer Object in an Array of String you will get ArrayStoreException.
 //
 //        The following code throws ArrayStoreException :
 //

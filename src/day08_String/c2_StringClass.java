@@ -1,6 +1,6 @@
 package day08_String;
 
-//import java.lang.String; no need to import beacause java will import automaticlly
+//import java.lang.String; no need to import beacause java will import automatically
 
 public class c2_StringClass {
 
@@ -23,9 +23,9 @@ public class c2_StringClass {
         //Java String literal is created by using double quotes. For Example:
         //
         //String str1="Hello";
-        //Each time you create a string literal, the JVM checks the "string constant pool" first.
-        // If the string already exists in the pool, a reference to the pooled instance is returned.
-        // If the string doesn't exist in the pool, a new string instance is created and placed in the pool.
+        //Each time you create a string literal, the JVM checks the "string constant pool" first. *****************
+        // If the string already exists in the pool, a reference to the pooled instance is returned. ********
+        // If the string doesn't exist in the pool, a new string instance is created and placed in the pool. ****
 
         //for example :
         String str1="Hello";// 1.By string literal java will check pool and since we dont have "Hello"
@@ -38,7 +38,7 @@ public class c2_StringClass {
 
         //2.by new keyword
         String str3=new String("Hello");
-        //it will create an object called Hello under java heap memory (non -pool )
+        //it will create an object called Hello under java heap memory (non -pool ) ***********
 
 
         System.out.println(str1==str2); //true
@@ -55,7 +55,7 @@ public class c2_StringClass {
 
 
         //in java  string objects are immutable
-        //immutable means object is uncahangabel (can not be modify)
+        //immutable means object is uncahangabl (can not be modify)
 
         String s2="New York";
 

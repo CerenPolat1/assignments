@@ -24,6 +24,9 @@ public class c4_multiTryCatch {
             System.out.println("exception");
         }
 
+
+        //in try and catch solves issue definately, you never see same issue in your code in any  but in throws method you can face it bec. you just throw anywhere
+         //it is absoulute solution you never see this kinda
         //yukaridaki catch'lerden hangisi bu ornekle ilgiiyse o exception run eder,
         // buradaki sorun arithemetic exception ilgili oldugundan o run etti
         // peki neden dogru oldugu halde (RuntimeException ve Exception) run etmedi

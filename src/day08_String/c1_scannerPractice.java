@@ -24,7 +24,7 @@ public class c1_scannerPractice {
         String companyName=input.nextLine();//will accept enter
         System.out.println("Company name is " + companyName);
 
-        System.out.println("enter Employe Age ");
+        System.out.println("enter Employee Age ");
         int age = input.nextInt();
         System.out.println("Age is "+age);
 

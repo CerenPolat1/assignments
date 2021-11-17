@@ -16,7 +16,7 @@ public class c1_ternaryContinue {
 
         public static void main(String[] args) {
             int score=70;
-            char grade='0';
+            char grade;
 
             String result="";
 

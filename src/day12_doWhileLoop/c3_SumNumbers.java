@@ -11,6 +11,7 @@ public class c3_SumNumbers {
     // If so, the loop should repeat; otherwise it should terminate.
     // if user says y or Y continue
     // if user says n or N stop the loop
+
     public static void main(String[] args) {
         int number1 , number2 ;
         char choice; //y or n

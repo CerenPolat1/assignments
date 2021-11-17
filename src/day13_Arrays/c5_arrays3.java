@@ -8,7 +8,7 @@ public class c5_arrays3 {
     public static void main(String[] args) {
         int [] arr=new int[3];
         //array size is fixed
-        //so you will need to decleare at the begining
+        //so you will need to declare at the begining
 
         arr[0]=10;
         arr[1]=20;
@@ -17,7 +17,7 @@ public class c5_arrays3 {
         System.out.println(arr);//[I@5cad8086 hashcode it is not an error
         System.out.println(arr[0]);
 
-        //we have a method to convert from hashcode to string and that will return you whole array
+        //we have a method to convert from hashcode to string and that will return you whole array !!!!!!!!!!!!!
         //Arrays is librarry inside java and it has different methods
         //tostring method will ask and array and convert whole array to string
         System.out.println(Arrays.toString(arr));//[10, 20, 30]

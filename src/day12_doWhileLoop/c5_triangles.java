@@ -19,7 +19,7 @@ public class c5_triangles {
             }
             System.out.println();
         }
-
+        System.out.println();
         //i = 1
         //line from 15 to 21 will run
         //int k =1 ; k <= (i=1) ; k++
@@ -57,7 +57,7 @@ public class c5_triangles {
             for (int k=1; k<=i; k++){
                 System.out.print("* ");
             }
-            System.out.println();
+            System.out.println("*");
         }
 
 

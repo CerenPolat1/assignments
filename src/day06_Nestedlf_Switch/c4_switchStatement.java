@@ -11,10 +11,10 @@ public class c4_switchStatement {
         //5 -- may
 
         public static void main(String[] args) {
-            int number=12;
+            int number=1;
             String  monthName ;
 
-            switch (number){//swtich will ask you to pass a variable that will might have different cases
+            switch (number){ //switch will ask you to pass a variable that will might have different cases
                 case 1 :monthName="Jan"; //swtich will check number and if it matches with the case = 1
                     // it will make month name as a Jan
                     break; //break will break all switch after catching the matching case number

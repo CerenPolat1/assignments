@@ -30,7 +30,7 @@ public class c4_methodsWithParameters {
         System.out.println("Enter your age");
         int age=scanner.nextInt();
 
-        ageCategory(age); // bu da verilen degerin run etmesi icin yazildi
+        ageCategory(age); // bu,  verilen degerin run etmesi icin yazildi
 
     }
 
@@ -45,6 +45,7 @@ public class c4_methodsWithParameters {
     //if age is bigger then 80 print  old
 
     public static void ageCategory(int age){
+
         String result="";
         if (age>=0 && age <5){
             result= age+ " is a baby";

@@ -13,7 +13,7 @@ public class c3_WhileLoop {
             //iteration  i++             // iteration
         }
 
-        //while loop : while loopp will be keep runninng as long as while condition is true
+        //while loop : while loopp will be keep running as long as while condition is true
         //initilization(baslangic) will be outside of while loop***********
 //        while (100 > 95){//condition here
 //            System.out.println("Hello world");

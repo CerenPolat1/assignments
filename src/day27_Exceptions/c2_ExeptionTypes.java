@@ -6,8 +6,8 @@ public class c2_ExeptionTypes {
 
        //EXCEPTION (PARENT)
 
-    //1-RuntimeException     2-  IOException
-
+    //1-RuntimeException (in the console)    2-  IOException (compiler exception)
+//in selenium -->runtimeexception, mostly time we face it
     //diyelim sen exceptiondan kurtulmak istiyorsun sorunun 1 mi 2 mi oldugunu bilmiyorsun,
     // o zaman direkt EXCEPTION (PARENT) yazarsin cunku o parent oldugundan hepsini karsilar
 

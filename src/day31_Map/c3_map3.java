@@ -14,7 +14,9 @@ public class c3_map3 {
         gmailCredentials.put("username4","password4");
         gmailCredentials.put("username5","password4");
         gmailCredentials.put("username6","password4");
-        gmailCredentials.put("username1","password4");
+        gmailCredentials.put("username1","password4"); //neden bu degil de ilki run etti cunku
+        //cunku loop bastan okudugundan yani siradan gittiginden ilk on u aldi sonuncuyu birakti
+
         //keys can not be dublicated . It will reassigned the value
 
         System.out.println("gmailCredentials = " + gmailCredentials);
@@ -28,7 +30,7 @@ public class c3_map3 {
         }
 
         //i want to store all usernames in arraylist
-        ArrayList<String> usernames=new ArrayList<>(gmailCredentials.keySet());
+        ArrayList<String> usernames=new ArrayList<>(gmailCredentials.keySet()); //keyset method gives all info from map
         ArrayList<String> passwords=new ArrayList<>(gmailCredentials.values());
 
         System.out.println("usernames = " + usernames);

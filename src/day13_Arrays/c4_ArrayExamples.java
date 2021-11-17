@@ -28,6 +28,7 @@ public class c4_ArrayExamples {
         int max = listOfNumbers[0];//10
         int min = listOfNumbers[0];//10
 
+
         for (int i =0 ;i < listOfNumbers.length ; i++){ // 0 1 2 3 ... lastindex
 
             if (listOfNumbers[i]>max){ //[2]=100 > 10   // [3] 200 >100 //[4] 500 >200
@@ -41,8 +42,6 @@ public class c4_ArrayExamples {
 
         System.out.println("Max number is " + max);
         System.out.println("Min number is " + min);
-
-
 
 
     }

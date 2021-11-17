@@ -12,7 +12,7 @@ public class c4_ForEachLoop {
         int [] numbers={1,2,3,4,5};
 
         for (int eachNumber : numbers){
-            //for each loop will store eaach elemet from the numbers list in each iteration from first one to last one
+            //for each loop will store each element from the numbers list in each iteration from first one to last one
             System.out.println(eachNumber);
         }
 

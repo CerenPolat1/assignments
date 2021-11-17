@@ -9,7 +9,7 @@ public class c4_NestedLoop {
         //example :
         //while inside for loop
         //for loop inside for loop
-        //do while inside for
+        //do while inside for loop
         // .....  any loop can be inside of any loop
 
         for (int i = 0 ; i < 3 ;i++){ //0 1 2
@@ -21,6 +21,7 @@ public class c4_NestedLoop {
             }
 
         }
+        System.out.println("_______________________");
 
         for (int i = 1 ; i <4 ; i++){ // 1 2 3
             System.out.println("1.For Start"); // 3 times

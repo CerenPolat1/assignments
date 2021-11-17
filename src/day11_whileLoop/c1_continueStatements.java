@@ -5,7 +5,7 @@ public class c1_continueStatements {
     public static void main(String[] args) {
 
         //break will stop loop
-        //continue will only skip ccurrent iteration
+        //continue will only skip current iteration
 
         for (int i =0 ; i < 5 ;i++){//0
             System.out.println("Before Break");//0 1 2

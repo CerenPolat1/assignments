@@ -23,9 +23,9 @@ public class c4_removeCharactersTask {
         String  word=input.nextLine();
 
         int length=word.length();
-        System.out.println("Lenght of plain world "+ length);
+        System.out.println("Lenght of plain word "+ length);
 
-
+        System.out.println("___________________");
         //first lets check first letter
         //if letter is small or capital a remove it
         if (word.substring(0,1).equalsIgnoreCase("a")){
@@ -34,7 +34,7 @@ public class c4_removeCharactersTask {
         }
 
         length=word.length();
-        System.out.println("Legth of word after first if check "+length);
+        System.out.println("Length of word after first if check "+length);
 
 
         //to store last index number
@@ -51,6 +51,7 @@ public class c4_removeCharactersTask {
         //last letter a
         //first and last letter a
         //first and last letter are not a
+
 
     }
 }

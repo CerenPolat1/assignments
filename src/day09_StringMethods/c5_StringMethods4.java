@@ -1,7 +1,6 @@
 package day09_StringMethods;
 
 
-
 public class c5_StringMethods4 {
 
     public static void main(String[] args) {
