@@ -48,7 +48,7 @@ public class c4_BulkOperations {
         numbers2.removeAll(Arrays.asList(3.0));
         System.out.println("++++++++" +numbers2);
 
-        //retainall  will search for given data ant it will keep them . others will be removed
+        //retainall  will search for given data and it will keep them . others will be removed
         ArrayList<Integer> list5=new ArrayList<>();
         list5.addAll(Arrays.asList(1,1,2,2,3,4,5,5,6,7,10));
         System.out.println("list5 = " + list5);

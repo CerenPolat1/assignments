@@ -1,6 +1,7 @@
 package day24_AccessModifiers;
 
 public class c3_AccessModifiers {
+
     //			Access modifiers sunlar oluyor: 1- public, 2-protected, 3-default, 4-private
     // access modifiers explain your access level to the variable ,method or class
 

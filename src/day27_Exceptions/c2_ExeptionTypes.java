@@ -4,7 +4,7 @@ import java.io.File;
 
 public class c2_ExeptionTypes {
 
-       //EXCEPTION (PARENT)
+       //EXCEPTIONs
 
     //1-RuntimeException (in the console)    2-  IOException (compiler exception)
 //in selenium -->runtimeexception, mostly time we face it
@@ -34,7 +34,7 @@ public class c2_ExeptionTypes {
 
         ////			1.unchecked (unexpected event):If a program throws an unchecked exemption,
 
-        //System.out.println(20/0); //uncheked exeptions
+      System.out.println(20/0); //uncheked exeptions
         //occures during run time
         //Runtimeexemption class is the parent of all exemptions
         //for uncheked exeptions you wont see any java warning messages

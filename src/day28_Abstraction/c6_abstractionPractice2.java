@@ -1,18 +1,20 @@
 
 package day28_Abstraction;
 
-interface test1{    //bu interface'le baslayanlarin hepsi aslinda birer class yani interface, interface'e class denmez
+interface test1 extends test2{    //bu interface'le baslayanlarin hepsi aslinda birer class yani interface, interface'e class denmez
     void method1(); // public abstract //neden cunku interface sadece public kullandigindzn public varsayar
 }
-interface test2{
+interface test2 {
     abstract int method2(); // public abstract
 }
-interface test3{
+interface test3          {
     public abstract void method3(); // public abstract
 }
 
+// iki interface class implements olmuyor ama  iki interface class extends oluyor ***********
+
 public class c6_abstractionPractice2 implements test1,test2,test3{  //main class can implement many interfaces
-                                                //burzya sadece interface olanlar yazilbilir
+                                                //buraya sadece interface olanlar yazilbilir
 
     //it will inherite all the methods from test 1 ,test3 ,test 3
 
@@ -53,5 +55,6 @@ class test5 extends  test4 { // class only exdends one class
 // o yuzden, public class c6_abstractionPractice2 /exdend/ test1,test2,test3 bunun icine test5 yazilmaz
 
 //A class can inherit multiple interfaces (implements)
+
 
 

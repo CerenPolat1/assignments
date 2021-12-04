@@ -6,7 +6,7 @@ public class c5_CountEvenOddnumbers {
 
     public static void main(String[] args) {
 
-        //creata a java program that will print count off odd numbers and even numbers from int array
+        //create a java program that will print count off odd numbers and even numbers from int array
 
         int []numberList={33,0,2,4,6,7,5,3,100,25,30,200};
 

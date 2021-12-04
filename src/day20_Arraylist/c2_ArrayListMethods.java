@@ -33,12 +33,14 @@ public class c2_ArrayListMethods {
         //add(index , data)
         //this method will add your data to specific index that you want
         //numbers.add(7,33);  out of index
+
+
         int sizeOfNumbers= numbers.size();//last index is 4 and size is 5
         System.out.println("sizeOfNumbers = " + sizeOfNumbers);
         numbers.add(5,95);
-        System.out.println(numbers);
+        System.out.println(numbers+ "...........");
 
-        //set(index , data) //reassiginning your datas                //!!!direkt istedigi indexin yerini alir ve eskisini kaldirir!!!!
+        //set(index , data) //reassigning your data        //!!!direkt istedigi indexin yerini alir ve eskisini kaldirir!!!!
         //this method will set value for given index
         //set 5 to 500
         numbers.set(1,500);

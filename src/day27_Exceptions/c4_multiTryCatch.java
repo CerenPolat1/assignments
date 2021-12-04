@@ -25,13 +25,13 @@ public class c4_multiTryCatch {
         }
 
 
-        //in try and catch solves issue definately, you never see same issue in your code in any  but in throws method you can face it bec. you just throw anywhere
+        //in try and catch solves issue definataly, you never see same issue in your code in any  but in throws method you can face it bec. you just throw anywhere
          //it is absoulute solution you never see this kinda
         //yukaridaki catch'lerden hangisi bu ornekle ilgiiyse o exception run eder,
         // buradaki sorun arithemetic exception ilgili oldugundan o run etti
         // peki neden dogru oldugu halde (RuntimeException ve Exception) run etmedi
         // cunku eger catchlerden biri once run ettiyse digerlerini yazdirmaya gerek duymaz
-        //yani catrch gordugu ilk dogruyu alir
+        //yani catch gordugu ilk dogruyu alir
 
         //to be able to catch exception you need use same level exception or parents of exceptions
         //for ex : handling arithmetic exceptions will be handled with arithmetic,runtime,exceptions

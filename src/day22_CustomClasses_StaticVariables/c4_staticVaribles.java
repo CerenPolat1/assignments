@@ -96,7 +96,7 @@ public class c4_staticVaribles {
         //block
     }
 
-//local variable : declerad inside of block
+//local variable : declared inside of block
 
 
                         //DIFFERENCES AND SAME THING IN BOTH  //INTERVIEW QUESTIONS
@@ -116,3 +116,15 @@ public class c4_staticVaribles {
 
     // instance ve static variable ortak ozeeligi her ikisi de block disinda yani class disinda yazilir
 }
+//instance variable :declared outside of the blocks
+//instance variable can have multiple copy from object  //her assign yaptiginda degerleri ayri ayri alir
+//they need to be called through object   //OBJECT YARATMAN GEREKIR YOKSA CALISMAZ
+
+//static variables :declared outside of any block with static keyword
+//static variable can only have one copy from object     ////her assign yaptiginda degerleri ayri ayri almaz, hepsini bir kabul eder
+//they can also be called with classname itself  //OBJECTE GEREK YOK blogun icinde DIREKT CAliSIR
+
+
+
+
+// instance ve static variable ortak ozeeligi her ikisi de block disinda yani class disinda yazilir

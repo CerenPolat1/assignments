@@ -35,8 +35,8 @@ public class c3_ExceptionHandling {
             System.out.println("list.get(20) = " + list.get(20));//unchecked  IndexOutOfBoundsException
 
         }catch (IndexOutOfBoundsException a){
-            System.out.println("a.getStackTrace() = " + a.getStackTrace());//bu exception hakkinda sana fikir veriyo consolda
-            System.out.println("a.getMessage() = " + a.getMessage());//sana bilgi veriyor: a.getMessage() = Index: 20, Size: 10
+            a.getStackTrace();//bu exception hakkinda sana fikir veriyo consolda
+            a.getMessage();//sana bilgi veriyor: a.getMessage() = Index: 20, Size: 10
 //peki neden buradaki try'in icindeki run etmedi de catch'dekiler run etti cunku bizim elimizde 20 index yok,
 // olmadigindan asagiya gecti ve onu run etti
         }
@@ -50,7 +50,7 @@ public class c3_ExceptionHandling {
 
             try {
                 Thread.sleep(1000);  //bu her zaman yukaridaki println'i alir, alamazsa catch'e iner
-                //ve 1000 demek 1 saniye demek, sayilar 1 saniye araliklarla run etsin demek
+                //ve 1000 demek 1 saniye demek, sayilar 1 saniye sonra run etsin demek
             } catch (InterruptedException e) {  //eger exception ismini bilmiyorsan (InterruptedException) bunun  yerine direkt Exception ya da RuntimeException yazarsin
                 // cunku bu (InterruptedException) bunun  RuntimeException altinda, ya da direkt Exception yaz cunku o parent
                 //ya da hic hatirlamiyorsun hangisi hangisine ait direkt olarak Excemption'i call edersin

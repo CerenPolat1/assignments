@@ -46,9 +46,12 @@ public class c1_CostructorChainningPractice {
         // this();
         System.out.println("int const");
     }
+    public c1_CostructorChainningPractice (String str, int b){
+        System.out.println("xxxx");
+    }
 
     public c1_CostructorChainningPractice(boolean b ,double d){
-        //this("hello");
+        this("last chain",1);
         ////            5. Contructor cannot call itself or conatin itself
         // this(true,5.5); boyle yaparsan direkt kendini cagirmis olur bu da kabul edilmiyor
 
@@ -75,8 +78,7 @@ public class c1_CostructorChainningPractice {
         // 4. One constructor can only call one constructor
         this(true,10.5);
         System.out.println("num = " + num);
-        // this();
-        System.out.println("int const");
+
 
     7-daha sonra buradan methodun icindeki this'e gider:  this(true,10.5); ,
     8- bu (this(true,10.5)) parameterin oldugu cunstructor'a gider :
@@ -105,7 +107,7 @@ public class c1_CostructorChainningPractice {
         //yukaridakinin icine nasil variable yazdik? yukarida 2 int'li bir class var ya onu alip yazdi bu kadar
 
         //we created object from class by using int constructor
-        c1_CostructorChainningPractice obj2=new c1_CostructorChainningPractice(true,10.5);
+        //c1_CostructorChainningPractice obj2=new c1_CostructorChainningPractice(true,10.5);
 
 
     }

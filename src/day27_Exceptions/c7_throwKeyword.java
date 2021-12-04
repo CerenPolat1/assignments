@@ -6,7 +6,7 @@ public class c7_throwKeyword {
 
     public static void main(String[] args) {
         NoSuchElementException obj = new NoSuchElementException(); //bu exception'lari object olarak kullanabilirsin
-        //  throw obj;
+        // throw obj;
 
         //throw vs throws
         //throw will throw exception to your code... throw gives a problem to your code
@@ -14,6 +14,7 @@ public class c7_throwKeyword {
         //so 2 of them do totally different things
 
         //throw: hata veriyor.
+
 
         try {
             throw new ArithmeticException(); //throw create ArithmeticException exception

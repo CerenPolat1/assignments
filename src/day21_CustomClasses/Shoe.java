@@ -56,7 +56,7 @@ public class Shoe {
         System.out.println(brand + " , " + size + " , " + color);
     }
 
-    //since all the varibles are not decleared we will need to set variables to make sure methods doesnt return null
+    //since all the variables are not decleared we will need to set variables to make sure methods doesnt return null
     public void setShoeInfo(String shoeBrand , int shoeSize , String shoeColor){
         brand = shoeBrand;
         size = shoeSize;

@@ -33,3 +33,13 @@ public class c7_ArraylistReverse {
 
     //bu public static'te reverse islemini hakllettik yani elimizdekini geri saymasi icin kurduk denklemi
 }
+
+
+
+
+
+
+
+
+
+

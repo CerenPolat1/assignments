@@ -25,7 +25,7 @@ public class c1_Dublicates {
 
         ArrayList<String> dublicatedList= new ArrayList<>(); // we will store dublicate ones in this list
           //we needed to create nested loop bec. we compare each of loops and find dublicates
-        //if count is more then 1 that means data is dublicated
+        //if count is more than 1 that means data is dublicated
 
         for (int i =0 ; i<letters.size();i++){//"a","b","c","d","c","x","e" ,"c" ,"d" ,"x","x"
 

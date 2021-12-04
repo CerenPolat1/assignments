@@ -9,7 +9,7 @@ public class c3_ReturnMethod {
 
 
         minNum(10, 5); //this one is void method, you can not store string
-        String result = minNum2(10, 5); //return type oldugu icin store yapabildi
+        String result = minNum2(10, 5); //return type oldugu String icin store yapabildi
         System.out.println(result);
         System.out.println(minNum2(10,5));
 
@@ -26,20 +26,20 @@ public class c3_ReturnMethod {
         System.out.println(division(30,5));
     }
 
-    //decleration of the method
+    //declaration of the method
     // public               static           void               main        (String [] args){
-    // Access-modifer       specifier        return-type        methodName  (paramater)
-    //statments ,code
+    // Access-modifier       specifier        return-type        methodName  (parameter)
+    //statements ,code
     //}
 
-    //Access-Modifer =public, protected ,default ,private
-    //specifier   : static ,final ,abstract ,synchronized
-    //return type : void , any datatype(int,string,char , int [] .......)
-    //some method has paramaters some dont have parameter
+    //Access-Modifier =public, protected ,default ,private
+    //specifier  : static ,final ,abstract ,synchronized
+    //    //return type : void , any datatype(int,string,char , int [] .......)r
+    //some method has parameters some don't have parameter
 
     //create a method that will print minumum number from 2 number
 
-    ////return method kullaniyrsan, return methodun icinde print yapamiyorsun, void main icinde yapioyorsun
+    ////return method kullaniyorsan, return methodun icinde print yapamiyorsun, void main icinde yapioyorsun
 
     public static void minNum(int i1, int i2) { // int'lere sadece variable yani isim verip birakiyorsun asil islem assagida
         String result = "";
@@ -68,7 +68,7 @@ public class c3_ReturnMethod {
 
     }
 
-    //create a divison function
+    //create a division function
     public static int division(int number, int number2) {
         System.out.println("Hello This is Division Method!!!!");
         System.out.println("Division of " + number + " , " + number2);

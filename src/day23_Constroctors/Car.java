@@ -3,8 +3,8 @@ package day23_Constroctors;
 public class Car {
 
 
-    //if you dont constructor  java will have one already  -
-    //to give abilty to create an object from class
+    //if you dont have constructor,  java will have one already  -
+    //to give ability to create an object from class
 
     String brand;
     int year;

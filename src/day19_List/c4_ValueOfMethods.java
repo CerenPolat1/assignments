@@ -15,8 +15,8 @@ public class c4_ValueOfMethods {
         System.out.println(number2 + 25); //80
         System.out.println(str + 25); //5525
 
-        String str2= "55.5";
-        Double d1=Double.valueOf(str2);
+        String stttr2= "55.5";
+        Double d1=Double.valueOf(stttr2);
         System.out.println(d1+5);
 
         String text="55"+"25";

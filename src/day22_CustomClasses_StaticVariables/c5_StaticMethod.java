@@ -30,12 +30,12 @@ public class c5_StaticMethod {
         staticMethod();
 
 
-        // !!!!!!!!!!!!!! to be able call different class static method
+        // !!!!!!!!!!!!!! to be able to call different class static method
         //!!!!!!!!!!!!!!!!you can just call with classname
 
         myLibraryMethods.stars();
 
-        //!!!!!!!!!!!to be able to call different class instance method
+        //!!!!!!!!!!!to be able to call  instance method from different class
         //!!!!!!!!!!!!you will need to create an object
     }
 

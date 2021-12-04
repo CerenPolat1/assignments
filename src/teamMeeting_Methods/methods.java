@@ -104,7 +104,7 @@ public class methods {
 
     }
 
-    // !!!!! return type'in (String) return ile ayni olmali paraeters (int i1,int i2 farkli da olur eger icinde farkli islemler yaptiysan
+    // !!!!! return type'in (String) return ile ayni olmali parameters (int i1,int i2 farkli da olur eger icinde farkli islemler yaptiysan
 
     public static String minNum2(int i1, int i2) {
         //return type is string i cant return other than string

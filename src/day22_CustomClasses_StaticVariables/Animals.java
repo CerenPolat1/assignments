@@ -1,6 +1,7 @@
 package day22_CustomClasses_StaticVariables;
 
 public class Animals {
+
 // bunlara atribute denir:
     String type;// these are instance variables bec there are in che class but outside of the method
     double age;

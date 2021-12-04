@@ -42,14 +42,15 @@ IN MY WORD, ENCAPSULATION means THE VARIABLES OF THE CLASS WILL BE HIDDEN FROM T
 
     //****** 2.Provide public setter* and getter* methods to modify and view the variables values.
     //this is encapsulation
-//yani private olani public hale getirebilme ve kullanbilme yolu: set and get
+//yani private olani public hale getirebilme ve kullanbilme yolu: setter and getter
 
 
-    //ana class'dan olusturuyorsun get ve set'i sonra object'den cagiriyoruz
+    //ana class'dan olusturuyorsun getter ve setter'i sonra object'den cagiriyoruz
 
     public void setName(String name){
         this.name=name;   //private'daki name'i cekti // EncapObject'de bunu kullanabildi nasil? object yaratti setName'i kullandi ve yazdi
     }
+
     public String getName(){   //parantez icine eger string name olusturmazsak, bir daha this. yapmaya gerek kalmaz eslestirilecek bir sey olmaz cunku
         return name;
     }
@@ -68,4 +69,7 @@ IN MY WORD, ENCAPSULATION means THE VARIABLES OF THE CLASS WILL BE HIDDEN FROM T
     public long getIdNum(){
         return idNum;
     }
+
+
+
 }

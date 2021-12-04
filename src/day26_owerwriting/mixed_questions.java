@@ -54,7 +54,9 @@ public class mixed_questions {
         ArrayList<String> listt = new ArrayList<>();
         listt.addAll(Arrays.asList("Ahmed", "John", "Eric", "Ahmed"));
 
-        listt.removeAll(Arrays.asList("Ahmed"));
+      listt.removeAll(Arrays.asList("Ahmed")); //tum Ahmedleri cikarir
+        //listt.remove("Ahmed"); ////ilk Ahmedi cikarir
+
         System.out.println(listt);
 
 

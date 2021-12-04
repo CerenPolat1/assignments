@@ -20,7 +20,7 @@ public class c3_AbstractionPractice extends abstractClass1{  //abstractClass1'de
     }
 }
 
-abstract class abstractClass2 extends  abstractClass1 {
+abstract class abstractClass2 extends  abstractClass1{
     //acbrtacta, farkli methodlar da  kullanailirsin
     //abstrac classes can have regular method and abstract method
     //exteded abstract method and method2
@@ -31,6 +31,7 @@ abstract class abstractClass2 extends  abstractClass1 {
     abstract void abstractMethod3();
 }
 
+
 class class3 extends abstractClass2{
     //normal methodlarda abstract kullanilmaz, sadece abstractta absract kullanilir
 
@@ -38,8 +39,8 @@ class class3 extends abstractClass2{
     //that is why extended abstract are need be overriding
 
     //below methods will be inherited
-    //abstractMethod3();  // needs to be overriden
-    //abstractMethod1();  // needs to be overriden
+    //abstractMethod3();  // needs to be overridden
+    //abstractMethod1();  // needs to be overridden
     //method2(){body}  // no need to override because it has body (its not abstract method )
 
     @Override

@@ -1,6 +1,7 @@
 package day23_Constroctors;
 
 public class c6_ConstructorIntro {
+
     //constructor is a special method which has to have class name as a method name
 
 

@@ -9,6 +9,8 @@ public class c5_ArraySorting {
 
 
     public static void main(String[] args) {
+
+
         int [] numbers = {5,19,2,-3,10};
         Arrays.sort(numbers);
         //classname.method
@@ -28,6 +30,7 @@ public class c5_ArraySorting {
 
     //create a method that will print array in descending order
     public static void descendingSort(int [] arr){  // descendingSort=azalan siralama
+
         //first sort the array
         //and reverse the array with loop
         Arrays.sort(arr);
@@ -79,8 +82,6 @@ public class c5_ArraySorting {
 
         return descArr;
     }
-
-
 
 
 

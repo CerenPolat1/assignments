@@ -12,9 +12,8 @@ package day26_owerwriting;
 //   *********** overriding olmasi icin su kurallar lazim: ****************
 // 1-her seyiyle birebir ayni methodlar olmali (same method name, same parameter, same return-type)
 // 2-methodlardan biri sub class olmali yani biri parent'da biri child classda olmali
-// 3- sadece instance method icinde kullanilir
-// 4-override annotation methodta gorunmeli
-
+// 3- sadece instance method overriden olabilir
+// 4-override annotation methodta yer almali
 
 
 
@@ -22,6 +21,10 @@ class test5{
     int number ;
     public void method2(){
         System.out.println("Method 2");
+    }
+
+    static{  //static block only works inside a class
+
     }
 }
 
@@ -59,7 +62,7 @@ public class c4_MethodOverriding extends test5{
     public static void main(String[] args) {
 
         c4_MethodOverriding obj = new c4_MethodOverriding();
-        obj.method2();  //eger override'li  method olmasaydi sadece sadece parent'daki "method2"yu gorecektik
+        obj.method2();  //eger override'li  method olmasaydi sadece parent'daki "method2"yu gorecektik
         // ama overriding olunca java olunca onu secer, o yuzden run'da owerwrite method2 bec this class and prent class have same dorduk
     }
 }

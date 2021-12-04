@@ -13,7 +13,6 @@ and make their chain which makes the program more readable.
    */
 
 class test2{
-//BURADA 2 TANE CONSTRUCTOR VAR BU YUZDEN JAVA ERROR VERIR 1 TANE OLMALI SEN DE SOYLUYORSUN HANGISINI ALMALI BU DA SUPER() ILE OLUR
 
     public test2(String str){
         System.out.println("test2 string");
@@ -29,7 +28,7 @@ public class c2_ConstructorSuper extends test2{
     //you will need to tell java which constructor should be executed
     //EGER BIRDEN FAZLA YARATIRSAN ERROR VERIR
 
-    //From base class: by using super() keyword to call constructor from the base class.-- we will see this later
+    //From base class: by using super() keyword to call constructor from the base class.
 
 
     public c2_ConstructorSuper(){

@@ -6,7 +6,7 @@ import java.util.Collections;
 public class c3_ArraysListMethods2 {
 
     public static void main(String[] args) {
-        ArrayList<Integer> list =new ArrayList<>();  //2.arraylist'deki <> icine yeniden Integer yazmaya gerek yok ama yazadabilirsin
+        ArrayList<Integer> list =new ArrayList<>();  //2.arraylist'deki <> icine yeniden Integer yazmaya gerek yok ama yazabilirsin
         list.add(100);
         list.add(35);
         list.add(-25);
@@ -44,7 +44,7 @@ public class c3_ArraysListMethods2 {
         System.out.println("b1 = " + b1);
 
         ///arrays .sort
-        //Collections is an library whihc is very usefull with arraylist    //sana rakamlari kucukten buyuge dogru siralayarak verir
+        //Collections is an library which is very useful with arraylist    //sana rakamlari kucukten buyuge dogru siralayarak verir
         //Collection is data structure
 
         System.out.println("list = " + list);

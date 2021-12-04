@@ -1,6 +1,6 @@
 package day28_Abstraction;
 
-public interface c4_InterfaceIntroduction {
+public interface c4_InterfaceIntroduction  {
 
     //interface class'ini olustururken yan tarafta class yerine interface olani seciyorsun boylelikle onun sign'i cikiyor yanda
 // interface'in kullanimi cok yaygin degil ama gene de ogreniyoruz
@@ -47,5 +47,27 @@ public interface c4_InterfaceIntroduction {
     abstract void method4(); // public abstract
     void method5();// public abstract  //   there is only one access modifier allowed in interface ==> public
     // bu yuzden public sayiyoruz onlari
+
+
+
+    /*
+    niye interface kullaniriz????
+
+    to achive total abstraction
+    java doesnt support mulltiple inheritance of class, but using interface we can achive multiple inheritance
+    interface are used to implement abstruction.
+    abctruct'i kullanamk icin neden interface'e ihtiyacimiz var????
+    cunku abstruct'da final variable yok, kullanmak icin onu kullaniriz gibi
+
+     we can only call interface class from regular and abstract class using implements keyword..
+     but we can not  use implements class in 2 interface classes. also we can use extends keyword in 2 interface classes.
+     we cant extend from interface to abstract
+     //AYRICA, EGER REGULAR OR ABSTRUCT CLASS'DAN INTERFACE CAGIRACAKSAN SADECE IMPLEMENTS KULLANABILIRSIN EXTEND OLMAZ
+
+
+
+         */
+
+
 
 }

@@ -29,7 +29,7 @@ public class c5_finally_block {
 
         //soyle sorular da gelebilir what is the final keyword and finally keyword gibi
 
-        //finally'den sonra bir de catch falan yazamiyorsun izin vermez
+        //finally'den sonra  catch falan yazamiyorsun izin vermez
 
         //how finally blocks works
 

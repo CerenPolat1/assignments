@@ -29,7 +29,7 @@ public class c8_FinalVariables {
 
         //sen yukaridakilerine istedigin degeri bi daha verebilirsin ancak final kullandiktan sonra bir daha degistiremezsin
 
-        //obj1.instanceVrble2=20;
+       //obj1.instanceVrble2=20;
         //staticVtble2=400;// final keyword will make variable not changable, yukarida 100 atadigin icine bir daha atama yapamazsin
 
         final int finalNumber=20;

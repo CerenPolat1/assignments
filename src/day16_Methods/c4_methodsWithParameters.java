@@ -6,7 +6,7 @@ public class c4_methodsWithParameters {
 
     //decleration of the method
     // public               static           void               main        (String [] args){
-    // Access-modifer       specifier        return-type        methodName  (paramater){
+    // Access-modifier       specifier        return-type        methodName  (paramater){
     //statments ,code
     //}
 

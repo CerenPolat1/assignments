@@ -3,8 +3,10 @@ package day19_List;
 import java.util.ArrayList;
 
 public class c8_homework {
+
     public static void main(String[] args) {
         System.out.println("****Question 1**********");
+
         ArrayList<Integer> arr=new ArrayList<>();
         for (int i=1; i<=6; i++){
             arr.add(i);
@@ -12,6 +14,7 @@ public class c8_homework {
         System.out.println("Given array is "+arr);
 
         reversedOrder(arr);
+
         System.out.println("****Question 2**********");
 
         String sentence="hello 5world a1b2c3";

@@ -33,6 +33,7 @@ public class c3_ConstructorSuper extends test3{  //parent class
          //neden sadece "super.number = " + super.number okudu cunku iclerinden biri run edecek sen de hangisi oldugunu seciyorsun
         ///this(), keyword is used for calling in same class, bu yuzden number olarak 50iyı aldı
         //super keyword help us to call from parent bu yuzden 25'i aldı
+
     }
 
     //kisaca ayni class icinden chain icin this(), parent classtan cagiracaksan super()
