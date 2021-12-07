@@ -1,7 +1,7 @@
 
 package day28_Abstraction;
 
-interface test1 extends test2{    //bu interface'le baslayanlarin hepsi aslinda birer class yani interface, interface'e class denmez
+interface test1 extends test2{    //bu interface'le baslayanlarin hepsi birer interface, interface'e class denmez
     void method1(); // public abstract //neden cunku interface sadece public kullandigindzn public varsayar
 }
 interface test2 {

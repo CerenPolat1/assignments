@@ -36,6 +36,6 @@ public class c2_Square extends Shape{
 //ama bunu unique olmaktan cikarabiliyoruz nasil?
 //objectler yaratarak yapiyoruz ama uzun is oluyor
 
-//peki final varkenneden static kullaniyoruz cunku belki ilerleyen adimlarda staticgi degistirmek isteyeceksin
+//peki final varken neden static kullaniyoruz cunku belki ilerleyen adimlarda staticgi degistirmek isteyeceksin
 //or: diyelim kurum adi TD bunun hep kalacagindan eminden direkt final kullan ama
 //eger ilerleyen adimlarda bunu degiatirmeyi duusnursen static yap o zaman unique olmaktan cikarbiilirsin

@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
 public class c2_MapContinue {
 
     public static void main(String[] args) {
-        // //we will create a map that will has student name and examscore
+        // //we will create a map that will has student name and exam score
         //        //key == student name    String
         //        //value == score           Integer
         //we want to keep insertion order

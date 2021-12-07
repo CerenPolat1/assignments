@@ -18,7 +18,7 @@ import java.util.*;
 
 public class c1_List {
 
-    //  *******list is parent of arraylist, linkedlist and the vector *********
+    //  *******list is parent of arraylist, linkedlist and vector *********
     //    //list is an interface its not class so you cant create object from list
 
     //    //****differences between list types is way of creation
@@ -34,7 +34,7 @@ public class c1_List {
     ////        LinkedList(C): each object are doubly linked.
     ////                ---Doubly linked == removing adding functions are faster
 
-    //LinkedList adds number faster than ArrayList but a few fast
+    //        LinkedList adds number faster than ArrayList but a few fast
     ////
     ////        Vector(C): array based class, is synchronized  ,only prefer in multi thread
     ////              ---Synchronized: used for achiving thread-safety
@@ -47,9 +47,9 @@ public class c1_List {
     //Vector is  slowest one because of sencronised but there are not more differences
     //
     //    //list general points ;
-    //    //1.List are allowing dublicates objects
+    //    //1.List are allowing dublicate objects
     //    //2.order : list will keep the insertion order.
-    //    //3null elements : list will allow you to use  null elements;
+    //    //3.null elements : list will allow you to use  null elements;
     //    //4.list has dynamic size
 
     public static void main(String[] args) {
@@ -59,7 +59,7 @@ public class c1_List {
 
         List<Integer> list=new ArrayList<>(); //polymorphism
         list.add(25);
-        list.add(25);    //    //1. rule: List are allowing dublicates objects
+        list.add(25);    //    //1. rule: List are allowing dublicate objects
 
         System.out.println(list);
 

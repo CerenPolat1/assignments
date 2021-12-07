@@ -23,7 +23,7 @@ public abstract class Phone {
 
     //attributes:
 
-    public static String brand;  //bunu static yapmazsan static block error veriri bunu yazdiginda
+    public static String brand;  //bunu static yapmazsan static block error verir bunu yazdiginda
     public String model;
     public double price;
     public double size;

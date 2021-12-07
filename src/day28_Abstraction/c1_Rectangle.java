@@ -15,7 +15,7 @@ public class c1_Rectangle extends Shape {
     //below method will be inherited
     //shapeArea , shapeName
 
-    public final String shapeName="Rectangle";     //final'i digerleri gibi isim atayip birakamzsin doldurman lazim yoksa errro verir
+    public final String shapeName="Rectangle";     //final'i digerleri gibi isim atayip birakamzsin doldurman lazim yoksa error verir
     public double width;
     public double length;
 
@@ -43,4 +43,4 @@ public class c1_Rectangle extends Shape {
 
 //extra note: what is difference beetween import and extend?
 //import is importing from java libraries or packages that you created before..ama bunlar farkli pacgalerdan olur aynisindan olmaz
-//extend is calling oarent class
+//extend is calling parent class

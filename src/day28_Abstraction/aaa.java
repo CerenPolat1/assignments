@@ -4,7 +4,7 @@ public abstract class aaa implements  c7_InterfacePractice {
 
     //we can use implements keywords from abstract class, and also regular class to call interface
 
-    //AYRICA, EGER REGULAR OR ABSTRUCT CLASS'DAN INTERFACE CAGIRACAKSAN SADECE IMPLEMENTS KULLANABILIRSIN EXTEND OLMAZ
+    //AYRICA, EGER REGULAR OR ABSTRaCT CLASS'DAN INTERFACE CAGIRACAKSAN SADECE IMPLEMENTS KULLANABILIRSIN EXTEND OLMAZ
 
 
     public aaa() {

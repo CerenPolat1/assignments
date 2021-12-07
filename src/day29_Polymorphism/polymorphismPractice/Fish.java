@@ -1,6 +1,6 @@
 package day29_Polymorphism.polymorphismPractice;
 
-public class Fish extends Animal{
+public class  Fish extends Animal{
 
     //
     ////create a fish class that extends Animal   -- inheritence

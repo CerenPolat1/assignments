@@ -1871,13 +1871,594 @@ there two types of exception:
         //staticVtble2=400;//   olmaaaaz, final keyword will make variable not changable,
 
 
+ what is difference beetween import and extend?
+//import is importing from java libraries or packages that you created before..ama bunlar farkli pacgalerdan olur aynisindan olmaz
+//extend is calling parent class
+
+//peki final varken neden static kullaniyoruz cunku belki ilerleyen adimlarda staticgi degistirmek isteyeceksin
+//or: diyelim kurum adi TD bunun hep kalacagindan eminden direkt final kullan ama
+//eger ilerleyen adimlarda bunu degiatirmeyi duusnursen static yap o zaman unique olmaktan cikarbiilirsin
+
+//extra note:
+// static icin surekli unique diyoruz
+//ama bunu unique olmaktan cikarabiliyoruz nasil?
+//objectler yaratarak yapiyoruz ama uzun is oluyor
+
+overrriding yaptiginda abstract class'da degil child class'da degisim olur, cunku abstract'i extend yapiyosun
+
+    //abstract classes can have regular method and abstract method
+
+       //you cant have abstract methods in regular class
+    //that is why extended abstract are need be overriding
+
+        //we can use implements keywords from abstract class, and also regular class to call interface
+
+    //AYRICA, EGER REGULAR OR ABSTRaCT CLASS'DAN INTERFACE CAGIRACAKSAN SADECE IMPLEMENTS KULLANABILIRSIN EXTEND OLMAZ
+
+
+     //abstract methods
+
+    abstract void calling();
+    abstract void texting();
+
+child class:
+
+  @Override
+    void calling() {
+        System.out.println(brand+ " provides calling.");
+
+    }
+
+    @Override
+    void texting() {
+        System.out.println(brand+ " provides texting.");
+
+    }
+
+     //abstract classes are meant to be inherited
+    //can not be final
+        //those methods can not be final,static or private.--cunku overriding yapiyorsun,
+        overriding sadece instance ile calisir
+
+         //2 ways to achive abstraction
+    //1.Abstract Class , abstract methods
+    //2.Interface
 
 
 
 
+    .............INTERFACE............
+
+   there is only one access modifier allowed in interface ==> public *******
 
 
 
+ // you can implement inheritance in the interfaces by using implements keyword (instead of extend)
+    // you can implement multiple interfaces
+
+    //what is differences between abstract class and interface *******interview question
+    //A class can inherit from one class only (extends)
+    //A class can inherit multiple interfaces (implements)
+
+    //what we can have in interface?
+    //variable: static & final by default
+    //bir sey soylemezsen default olarak static ve final'i alir
+
+    //!!!!!!!methods: abstract methods, static methods, default method
+    //sadece instance kabul etmez hem method hem varible'da
+
+
+    //    what we cannot have in interface?
+    //interface'de kullanilmayanlar!!!!!!!!!!!!!!!!
+
+//    constructor
+//    instance variable
+//    instance methods
+//    blocks
+
+
+
+ niye interface kullaniriz????
+
+    to achive total abstraction
+    java doesnt support mulltiple inheritance of class, but using interface we can achive multiple inheritance
+    interface are used to implement abstruction.
+    abctruct'i kullanmak icin neden interface'e ihtiyacimiz var????
+    cunku abstruct'da final variable yok, kullanmak icin onu kullaniriz gibi
+
+     we can only call interface class from regular and abstract class using implements keyword..
+     but we can not  use implements class in 2 interface classes. also we can use extends keyword in 2 interface classes.
+     we cant extend from interface to abstract
+     //AYRICA, EGER REGULAR OR ABSTRUCT CLASS'DAN INTERFACE CAGIRACAKSAN SADECE IMPLEMENTS KULLANABILIRSIN EXTEND OLMAZ
+
+  default  void method1(){}
+  static void method2(){}
+   public abstract void method3();    bunlarin ucu de interface icindeydi.
+
+   interfaceler de tipki abstractlar gibi overriding olur, regular veya abstruct classtan bunlari extends ettiginde
+   kullanirsin interface methodlari
+
+
+................................POLYMORPHISM...........................
+
+        Animal animal2=new Fish("fish2" , 'f' ,5);
+
+        animal2.eat();//result comes from fish.. ama methodlar animal'dan gelir.sadece bilgiler fish'den tamamlanir
+        animal2.growing();//result comes from fish
+        animal2.animalMethod();//result comes from animal
+
+        neden bu yontemi kullaniyoruz???????????
+        polymorphism allows us to perform the same action in many different ways.
+
+
+
+  //why oop?????????????
+
+    //Reusability
+    //flexible
+    //easy to update  --- easy to maintain our code, chance something from parent.. it is easy to do it.
+    //memory -- it will reduce memory
+    //easy to read and remember functions that you created
+
+
+   polymorphism allows us to perform the same action in many different ways.
+
+    //alttakilerin ornegine gore bir seyi farkli seyler icin kullanabilme..bu alttaki ornegi interviweda verebilirsin
+
+    //    ////WebDriver driver=new ChromeDriver();
+    //    ////WebDriver driver=new FirefoxDriver();
+
+//webdriver'da neden object yaratilmiyor?
+    //cunku webrdriver bir inferface.. interface'de object yaratilmiyor
+
+
+
+.............................LIST................................
+
+
+
+// DAta Structures
+//        1 Array (fixed)
+//        2 Collection (Dynamic)
+//        3 Map
+
+//   ***Collection is a data structure
+
+                  ******* *Arraylist is coming from collection.
+
+list is parent of arraylist, linkedlist and vector
+list is an interface its not class so you cant create object from list
+****differences between list types are creation type
+ expample: arraylist created single linked,
+
+ Collection (I) (parent) : extended by List(I),Set(I),Queue(I) (child)
+
+   ArrayList(C): Internally uses array, singly linked
+ Singly linked == it (Singly linked) will retrieve data  faster than others (get)
+
+   LinkedList(C): each object are doubly linked.
+ Doubly linked == removing adding functions are faster
+
+LinkedList adds number faster than ArrayList but little
+
+  Vector(C): array based class, is synchronized  ,only prefer in multi thread
+ -Synchronized: used for achiving thread-safety
+
+ pop() method : LIFO (last in first out order), returns the last object from the stack and removes it from stack
+
+    //Vector is  slowest one because of sencronised but there are not more differences
+
+
+    //    //list general points ;
+    //    //1.List are allowing dublicate objects
+    //    //2.order : list will keep the insertion order.
+    //    //3.null elements : list will allow you to use  null elements;
+    //    //4.list has dynamic size
+
+        List<Integer> list=new ArrayList<>(); //polymorphism
+        list.add(25);
+        list.add(25);    //    //1. rule: List are allowing dublicate objects
+
+              ArrayList <String> words =new ArrayList<>();
+        words.add("Hello");
+        words.add("Hello");
+        words.add(null);
+        words.add(null);    //    //3. rule: null elements : list will allow you to use any number of null elements;
+
+        //istedigimiz kadar dublicate ve null ekleyebiliyoruz.
+
+
+        List<Integer> list2=new LinkedList<>();
+        list2.add(20);
+        list2.add(10);
+        list2.add(20);
+        list2.add(15);
+        list2.add(15);  //4.rule:list has dynamic size.. eklemeler yapabiliyorsun
+
+ //2.order : list will keep the insertion order. run uaptiginda yukaridaki siraya gore run yapar sirayi degistirmez
+
+ LIFO((last in first out order-son giren ilk çıkar),
+
+
+ ....................................QUEUE...................................
+
+ //FIFO
+        //it will sort in queue logic
+        //it is not always going to sort from small to large
+        //it has own sort logic
+
+          Queue<Integer> numbers=new PriorityQueue<>();
+        numbers.add(20);
+        numbers.add(20);
+        numbers.add(1);
+        numbers.add(11);
+        numbers.add(200);
+        numbers.add(15);
+        numbers.add(3);
+
+
+        System.out.println(numbers);//[1, 11, 3, 20, 200, 20, 15] //it will sort in quee logic.. randomly output verir
+        //o yuzden cok kullanisli degil bu yuzden diyoruz //it has own sort logic and there is no index
+
+
+
+Queue<Integer> numbers2=new ArrayDeque<>()
+
+        System.out.println(numbers2);//[20, 20, 1, 11, 200, 15, 3, 1] // ArrayDeque, listeni nasil olusturduysan o sirayla run eder
+
+         //   what is the differences between list and queue?????
+        //1-list has LIFO, queue has FIFO
+
+
+        ...............................SET..............................
+
+           //all type of sets are not going to accept dublicates
+
+        //if you have the list of numbers that you dont want to store dublicate ones  which collection type you will use ?
+        //answer is: set will be prefered
+
+        Set<String> letters=new HashSet<>();
+
+        //Hashset
+        //accept null values
+        //it doesnt accept dublicates
+        //it has sort logic but it is not always from small to large
+        letters.add("a");
+        letters.add("a");
+        letters.add("b");
+        letters.add("e");
+        letters.add("c");
+        letters.add("d");
+        letters.add("a");
+        letters.add(null);  //dublicateleri run etmez ve karisik run eder
+
+                Set<String > letters2=new LinkedHashSet<>();  // var olan liste sirasina gore run eder.
+        //linkhasset
+        //it doesnt accept dublicates
+        //it does not sort
+        //accept null values
+        letters2.add("a");
+        letters2.add("a");
+        letters2.add("b");
+        letters2.add("e");
+        letters2.add("c");
+        letters2.add("d");
+        letters2.add("a");
+        letters2.add(null);
+
+
+        Set<String> letters3=new TreeSet<>();  //kucukten buyuge gore siralanir
+
+        //Treset
+        //it doesnt accept dublicate values
+        //it does not accept null values..........
+        //it is going to sort from small to large
+
+        letters3.add("a");
+        letters3.add("a");
+        letters3.add("b");
+        letters3.add("e");
+        letters3.add("c");
+        letters3.add("d");
+        letters3.add("a");
+        //letters3.add(null);
+
+        System.out.println(letters3);//[a, b, c, d, e]
+
+        // //i want to store list of numbers in one collection type
+        //             //that is not going to accept dublicates
+        //             //also it will sort (from smallest to largest)
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+        //ideas ://treeset , arraylist (-) , priortyquee (-) ,hashset
+        //arraylist : is not going work . Because it accept dublicate values
+        //priortyquee : is not going work . Because it accept dublicate values
+        //hashset  : may work but not always beacuse it has own sort logic
+
+        //accept dublicate and keep insertion order
+        //set wont work (set doesnt accept dublicates)
+        //list and quee accept dublicates
+        //any type of list will work and you can also use Dequee (not preferd)
+
+        //i want to store list of numbers in one collection type
+        //that is not going to accept dublicates
+        //it will accept one null keyword
+
+        //ideas : treeset , hashet ,linkhasset
+        //since i dont want to accept dublicates only option left is set
+        //and treset not accepting null
+        //result is : hashset or linkhasset
+
+
+
+List and Set both are interfaces. They both extends Collection interface.
+The important differences between set and list are: *****************
+
+****1.Duplicate Objects
+The main difference between List and Set is that List allows duplicates while
+ Set doesn't allow duplicates.
+
+****2.Order
+List is an ordered collection it maintains the insertion order,
+which means upon displaying the list content it will display the elements in the same order in
+which they got inserted into the list.
+Set is an unordered collection, it doesn’t maintain any order.
+ There are few implementations of Set which maintains the order
+ such as LinkedHashSet (It maintains the elements in insertion order).
+ treeset will sort
+ hashset will sort in hashset logic
+
+****3.Null elements
+List allows any number of null elements. Set can have only a single null elements at most.
+--Treseet wont allow even one null
+
+
+// 1. write a program that can remove the duplicated characters from String
+        // and store them into variable
+
+ //bu yontem varken niye digerlerini ogrendik cunku interviewda method, collection kullanmadan coz diyebilirler o yuzden
+
+ LinkedHashSet<String> result= new LinkedHashSet<>(Arrays.asList(letters));
+
+ //hashset sirayla verir ve dublicaate olmadan
+//i cant use other sets because they will sort it
+
+        //fisrt you will need to remove dublicate values so you can compare them
+        //second make sure to sort them  from smallest to largest so you can compare if they are equal
+
+        String str1="abcabccabd";
+        String str2="dcbaccc";
+
+        String [] arr1=str1.split("");
+        String [] arr2=str2.split("");
+
+        System.out.println(Arrays.toString(arr1));//[a, b, c, a, b, c, c, a, b, d]
+        System.out.println(Arrays.toString(arr2));//[d, c, b, a, c, c, c]
+
+        TreeSet<String> result1=new TreeSet<>(Arrays.asList(arr1));
+        TreeSet<String> result2=new TreeSet<>(Arrays.asList(arr2));
+        //treseet will take arrays and remove dublicates and sort them from small to large
+
+
+......................................MAP...............................
+
+   //Data Structure :
+    //    Array (fixed, primitives & objects)
+    //    Collection (dynamic, only objects)
+    //    Map (dynamic, only objects)
+
+
+//Map Interface: accepts key and value. cannot be primitives.
+    //                key MUST be unique
+
+        //Map methods:
+    //    put(key, value): inserts key and value to map
+    //    get(key): returns the value of the given key
+    //    remove(key): removes the given key and it's value from the map
+    //    size():
+    //    containsKey(key): checks if the key is contained in the map. boolean
+    //    containsValue(Value): checks if the value is contained in the map. boolean
+    //    clear(): clears everything
+    //    isEmpty(): boolean
+    //    keySet(): returns all the keys from the map as Set
+    //    values(): returns all the values from the map as Collection
+    //    setEntry():
+
+     // HashMap: does not keep the insertion order
+    //         accepts null
+    // HashTable: is synchronized, thread-safe ==> one thread at a time
+    //             slower
+    //             does not accept null
+    // LinkedHashMap: keeps the insertion order as it's.
+    //             put & remove are faster
+    //             accepts null
+    // TreeMap: sorts the keys in ascending (sorted map)
+    //         does not accept null
+
+
+        Map<String,Integer> studentInfo=new LinkedHashMap<>();
+        //key :will be String that we will use for student names
+        //key has to be unique
+
+        //value : will be Integer and we will use for student numbers
+        //only accepts object types
+
+        //    put(key, value): inserts key and value to map
+        studentInfo.put("Sercan",125); //key yani buradaki durumuyla isimler unique olmali, value dublicate olabilir ondan sorun yok
+        studentInfo.put("Sercan",20);//burada ayni isimle yine key girdiginde 2.gordugunu alir.yani "Sercan",125 run etmez
+        studentInfo.put("Triska" ,125);
+        //boyle ayri ayri yazariz ama iksini tek bir map icinde verir
+
+//if you want to use map you will need to have 2 parameters
+        //first one will be key and has to be unnique
+        //second one will be value and this can be dublicate
+
+        //LinkedHashMap<String , double> // map only accept objects(Integer, Double,Byte vs.) not primitives (int, double)
+        LinkedHashMap<String , Double> studentAges=new LinkedHashMap<>();
+        //add new members
+        studentAges.put("Ozge", 25.5);
+        studentAges.put("Musab",35.5);
+        studentAges.put("bahast",11.2);
+        studentAges.put("Esther",22.2);
+        studentAges.put("Esther",18.0);
+        studentAges.put("Ozer",18.0);
+
+
+          //get method will only accept key
+        //and if key is present in your map you will see the value of the key
+        //if key is not presnet in your map result will be null
+
+
+        //    containsKey(key): checks if the key is contained in the map. boolean
+        //    containsValue(Value): checks if the value is contained in the map. boolean
+
+
+                // //we will create a map that will has student name and exam score
+        //        //key == student name    String
+        //        //value == score           Integer
+        //we want to keep insertion order
+        LinkedHashMap<String , Integer> studentsScore=new LinkedHashMap<>();
+
+        studentsScore.put("Firas", 87); // B
+        studentsScore.put("derya", 81); // B
+        studentsScore.put("bawer", 75); //C
+        studentsScore.put("ridvan", 65); //C
+        studentsScore.put("recep",92); // A
+        studentsScore.put("yad",100); // A
+        studentsScore.put("esra",95); // A
+
+        //scores more then 90 will be as Score : A
+        //scores between 80-90 will be Score : B
+        //scores less then 80 will be : C
+
+        LinkedHashMap<String,Integer> scoreA=new LinkedHashMap<>();
+        LinkedHashMap<String,Integer> scoreB=new LinkedHashMap<>();
+        System.out.println("scoreA = " + scoreA);// {} neden boyleler  cunku listeler bos burada
+        System.out.println("scoreB = " + scoreB);// {}
+
+        ////    //    keySet(): returns all the keys from the map as Set
+        //        //keyset will return the keys from the map
+
+        for (String eachStudent : studentsScore.keySet()){  //keyset student namelerine ve scorelarini verecek.
+            int eachStudentScore= studentsScore.get(eachStudent);
+            //use get method to ask for key and return their values
+
+            if (eachStudentScore >= 90){
+               scoreA.put(eachStudent,eachStudentScore);
+            }else if (eachStudentScore >= 80 && eachStudentScore <90){
+                scoreB.put(eachStudent,eachStudentScore);
+            }
+
+      LinkedHashMap<String , String> gmailCredentials=new LinkedHashMap<>();
+        gmailCredentials.put("username1","password1");
+        gmailCredentials.put("username2","password2");
+        gmailCredentials.put("username3","password3");
+        gmailCredentials.put("username4","password4");
+        gmailCredentials.put("username5","password4");
+        gmailCredentials.put("username6","password4");
+        gmailCredentials.put("username1","password4"); //neden bu degil de ilki run etti cunku
+        //cunku loop bastan okudugundan yani siradan gittiginden ilk on u aldi sonuncuyu birakti
+
+        //keys can not be dublicated . It will reassigned the value
+
+        System.out.println("gmailCredentials = " + gmailCredentials);
+        //keyset will return all key from map
+        for (String eachKey : gmailCredentials.keySet() ){
+            System.out.println("eachKey = " + eachKey);
+        }
+        //values will return all value from map
+        for (String eachValue : gmailCredentials.values() ){
+            System.out.println("eachValue = " + eachValue);
+        }
+
+        //i want to store all usernames in arraylist
+        ArrayList<String> usernames=new ArrayList<>(gmailCredentials.keySet()); //keyset method gives all info from map
+        ArrayList<String> passwords=new ArrayList<>(gmailCredentials.values());
+
+
+
+        ............................garbage collector..................
+
+         //garbage collector,heap memeoryide yer alan pool'da kullanilmayanlari, referans gosterilmeyenleri,
+         cagirilmayanlari siler neden, daha temiz bir hafiza icin
+
+        String str =new String("Hello"); // this one will be collected from memory by java garbage collector
+        str = new String("World");
+        //after i removed reference from hello by reassing str to "World"
+        //java garbage collacter will remove hello from the memory
+
+        // String str2=new String("Hello");// bu kullanilmadiginda silinecek, ne zaman silinir sure olarak bilmiyoruz ama
+        //referans gosterilmediginde mesela bir object;de falan siliniyor
+
+
+           Integer number=new Integer(123); // will be collected by java garbage collacter
+        number = new Integer(10); //bu kalir
+
+        c4_GarbageCollector garbage1=new c4_GarbageCollector(); //object de kullanilmasa bu da silinecek
+
+        new c4_GarbageCollector(); // this will be collected by java garbage collacter
+        //java garbage collacter will make java memory more  reausable
+
+
+        Byte b1=new Byte((byte) 101);// this will be collacted
+        b1=null; //bunlar neden silinmiyor cunku bunlar cagrildi ve kullanildi
+
+        c4_GarbageCollector obj2=new c4_GarbageCollector();
+        // obj2.finalize();
+
+          obj2.finalize();
+
+        //finalize method is called by garbage collacter to sent our object to garbage
+
+ // ********finalize method, collector'u beklemeden garbage gonderir der.
+
+//The final keyword can be used with class method and variable. A final class cannot be instantiated,
+// a final method cannot be overridden and a final variable cannot be reassigned.
+//
+//The finally keyword is used to create a block of code that follows a try block.
+// A finally block of code always executes, whether or not an exception has occurred.
+// Using a finally block allows you to run any cleanup-type statements that you just wish to execute,
+// despite what happens within the protected code.
+//
+//The finalize() method is used just before object is destroyed and can be called just
+// prior to object creation.
+
+
+..................................String vs StringBuilder vs StringBuffer.........................
+
+
+    //		String: Immutable (sabit) version char sequences
+    //
+    //		StringBuilder: mutable (degisken) version char sequences, not synchronized
+    //
+    //		StringBuffer: mutable (degisken) version char sequences, synchronized , thread-safe, slow
+
+
+           String str="Hello";
+        str.concat("world");
+        System.out.println("str = " + str); //hello
+        //string is immutable and we didnt print str.concat(world) or we didnt reassing str=str.concat("world");
+        //that is why string object wont be modifieded it will stay as hello
+
+        String str2=str.concat("world"); //helloworld
+        System.out.println("str2 = " + str2);
+
+        StringBuilder builder=new StringBuilder("Hello"); //open to be modified
+
+        builder.append(" world");//StringBuilder: mutable .... append method ile birlestirdik **********
+        System.out.println("builder = " + builder);//Hello world
+
+        StringBuffer buffer=new StringBuffer("Hello");
+        buffer.append(" world");//		StringBuffer: mutable
+        System.out.println("buffer = " + buffer);
+
+
+
+        // *********another way of to reverse string **************************
+
+                String word="java";
+
+       StringBuilder builder2=new StringBuilder(word);
+       System.out.println("builder2.reverse() = " + builder2.reverse());  //reverse methodla kelime ters cevrildi
 
 
 

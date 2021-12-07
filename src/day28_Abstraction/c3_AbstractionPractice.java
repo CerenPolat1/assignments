@@ -21,7 +21,7 @@ public class c3_AbstractionPractice extends abstractClass1{  //abstractClass1'de
 }
 
 abstract class abstractClass2 extends  abstractClass1{
-    //acbrtacta, farkli methodlar da  kullanailirsin
+    //acbrtacta, farkli methodlar da  kullanabilirsin
     //abstrac classes can have regular method and abstract method
     //exteded abstract method and method2
 
@@ -33,7 +33,7 @@ abstract class abstractClass2 extends  abstractClass1{
 
 
 class class3 extends abstractClass2{
-    //normal methodlarda abstract kullanilmaz, sadece abstractta absract kullanilir
+    //normal methodlarda abstract kullanilmaz, kullanmak ıcın overrıdıng yapılır sadece abstractta absract kullanilir
 
     //you cant have abstract methods in regular class
     //that is why extended abstract are need be overriding

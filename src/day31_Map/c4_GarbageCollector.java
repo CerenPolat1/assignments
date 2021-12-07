@@ -31,7 +31,7 @@ public class c4_GarbageCollector {
 
         //finalize method is called by garbage collacter to sent our object to garbage
 
- // ********finalize method, collector'u beklemeden garbage gondder der.
+ // ********finalize method, collector'u beklemeden garbage gonderir der.
 
     }
 }
