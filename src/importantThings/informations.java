@@ -1871,8 +1871,8 @@ there two types of exception:
         //staticVtble2=400;//   olmaaaaz, final keyword will make variable not changable,
 
 
- what is difference beetween import and extend?
-//import is importing from java libraries or packages that you created before..ama bunlar farkli pacgalerdan olur aynisindan olmaz
+ what is difference between import and extend?
+//import is importing from java libraries or packages that you created before..ama bunlar farkli packagelerdan olur aynisindan olmaz
 //extend is calling parent class
 
 //peki final varken neden static kullaniyoruz cunku belki ilerleyen adimlarda staticgi degistirmek isteyeceksin
@@ -1967,8 +1967,7 @@ child class:
     cunku abstruct'da final variable yok, kullanmak icin onu kullaniriz gibi
 
      we can only call interface class from regular and abstract class using implements keyword..
-     but we can not  use implements class in 2 interface classes. also we can use extends keyword in 2 interface classes.
-     we cant extend from interface to abstract
+      also we can use extends keyword in 2 interface classes.
      //AYRICA, EGER REGULAR OR ABSTRUCT CLASS'DAN INTERFACE CAGIRACAKSAN SADECE IMPLEMENTS KULLANABILIRSIN EXTEND OLMAZ
 
   default  void method1(){}
@@ -2023,15 +2022,17 @@ child class:
 //        3 Map
 
 //   ***Collection is a data structure
+ Collection (I) (parent) : extended by List(I),Set(I),Queue(I) (child)
+
 
                   ******* *Arraylist is coming from collection.
 
 list is parent of arraylist, linkedlist and vector
-list is an interface its not class so you cant create object from list
-****differences between list types are creation type
+list is an interface its not class so you cant create an object from list
+****differences between list types are  types of creation*****
  expample: arraylist created single linked,
 
- Collection (I) (parent) : extended by List(I),Set(I),Queue(I) (child)
+    LIST: ArrayList,LinkedList,Vector(C)
 
    ArrayList(C): Internally uses array, singly linked
  Singly linked == it (Singly linked) will retrieve data  faster than others (get)
@@ -2086,8 +2087,8 @@ LinkedList adds number faster than ArrayList but little
         //it will sort in queue logic
         //it is not always going to sort from small to large
         //it has own sort logic
-
-          Queue<Integer> numbers=new PriorityQueue<>();
+       //acceps dublicate value
+        Queue<Integer> numbers=new PriorityQueue<>();
         numbers.add(20);
         numbers.add(20);
         numbers.add(1);
@@ -2108,6 +2109,11 @@ Queue<Integer> numbers2=new ArrayDeque<>()
 
          //   what is the differences between list and queue?????
         //1-list has LIFO, queue has FIFO
+        2-list keeps insertion order but in queue run randomly
+
+        // var olan liste sirasina gore run eder:List, ArrayDeque
+        //from small to large:LinkedHashSet, TreeSet
+
 
 
         ...............................SET..............................
@@ -2170,7 +2176,8 @@ Queue<Integer> numbers2=new ArrayDeque<>()
         //             //also it will sort (from smallest to largest)
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
         //ideas ://treeset , arraylist (-) , priortyquee (-) ,hashset
-        //arraylist : is not going work . Because it accept dublicate values
+
+        //arraylist : is not going to work . Because it accepts dublicate values
         //priortyquee : is not going work . Because it accept dublicate values
         //hashset  : may work but not always beacuse it has own sort logic
 
@@ -2263,6 +2270,8 @@ List allows any number of null elements. Set can have only a single null element
     //    values(): returns all the values from the map as Collection
     //    setEntry():
 
+
+//HASH KARISIK DEMEK
      // HashMap: does not keep the insertion order
     //         accepts null
     // HashTable: is synchronized, thread-safe ==> one thread at a time
@@ -2299,7 +2308,7 @@ List allows any number of null elements. Set can have only a single null element
         studentAges.put("Musab",35.5);
         studentAges.put("bahast",11.2);
         studentAges.put("Esther",22.2);
-        studentAges.put("Esther",18.0);
+        studentAges.put("Esther",18.0); //bunu okur ustteki yerine
         studentAges.put("Ozer",18.0);
 
 
@@ -2326,9 +2335,9 @@ List allows any number of null elements. Set can have only a single null element
         studentsScore.put("yad",100); // A
         studentsScore.put("esra",95); // A
 
-        //scores more then 90 will be as Score : A
+        //scores more than 90 will be as Score : A
         //scores between 80-90 will be Score : B
-        //scores less then 80 will be : C
+        //scores less than 80 will be : C
 
         LinkedHashMap<String,Integer> scoreA=new LinkedHashMap<>();
         LinkedHashMap<String,Integer> scoreB=new LinkedHashMap<>();
@@ -2406,6 +2415,14 @@ List allows any number of null elements. Set can have only a single null element
         // obj2.finalize();
 
           obj2.finalize();
+
+
+          //differenses between final, finally, finalize??????????
+
+          //final:unchangeable variable
+          //finally:used inside try catch
+          //finalize:used by garbage collector
+          1
 
         //finalize method is called by garbage collacter to sent our object to garbage
 
