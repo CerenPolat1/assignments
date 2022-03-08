@@ -21,7 +21,7 @@ public class c2_Arrays {
 
         for (int i = 0 ; i <=3 ; i++){ //0 1 2 3
             String name=names[i];//0 firas
-            System.out.println("Name " + i + " == " + name);
+            System.out.println("nnnName " + i + " == " + name);
         }
 
         int [] numbers2= {1,2,3,4,5,10,7,8,0};

@@ -9,7 +9,7 @@ public class c1_StringPractice {
         //to split from second java
         int indexOfPlanet=sentence.indexOf("java is b");
         String splitedSentence=sentence.substring(indexOfPlanet);
-        System.out.println(splitedSentence);
+        System.out.println("ggg  "+ splitedSentence);
 
 
         System.out.println(sentence.length());

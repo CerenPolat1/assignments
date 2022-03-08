@@ -14,11 +14,11 @@ public class interviewww2 {
          * @param testStrings
          * @return
          */
-        public static ArrayList<String> name(List<String> testStrings){
+        public static ArrayList<String> name(List<String> testingStrings){
             List<String> names= new ArrayList<>();
-            for (String each:names){
-                if (each.contains((CharSequence) names)){
-                    names.add(each);
+            for (String eachOne:names){
+                if (eachOne.contains((CharSequence) names)){
+                    names.add(eachOne);
                 }
 
             }
@@ -31,7 +31,7 @@ public class interviewww2 {
 
 
             System.out.println(list);
-            System.out.println(list.stream().sorted().collect(Collectors.toList()));
+            System.out.println("aaa " +list.stream().sorted().collect(Collectors.toList()));
 
             Set<String> new1=new TreeSet<>();
             Set<String> new2=new TreeSet<>();

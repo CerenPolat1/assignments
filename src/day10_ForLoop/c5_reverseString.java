@@ -38,5 +38,18 @@ public class c5_reverseString {
         }
         System.out.println(reverseWord2);
 
+
+        System.out.println("--------");
+
+        String theword= "ceren";
+        String reverse = "";
+
+        //int lenghtth= theword.length()-1;
+
+        for(int a=theword.length()-1; a>=0; a--){
+            reverse+=theword.charAt(a);
+        }
+        System.out.println(reverse);
+
     }
 }

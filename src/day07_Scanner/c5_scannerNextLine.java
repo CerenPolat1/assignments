@@ -24,5 +24,9 @@ public class c5_scannerNextLine {
         String fullNAme=input.nextLine(); //accept enter
         System.out.println("full name "+fullNAme);
 
+        System.out.print("aaa   ");
+        System.out.print("bbb  ");
+        System.out.println("ccc  ");
+        System.out.println("dddd");
     }
 }

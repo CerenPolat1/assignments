@@ -54,7 +54,16 @@ package day06_Nestedlf_Switch;
                     //this will apply where student was present and
                     // have score between 51 toc 100
                     result = "Student was present and Student Score is " + score + " Grade is A";
-                }else if (score >=0 && score < 51){
+                    //ternary
+                    //if ?
+                    //else :
+                    //else if   : () ?
+
+                    char grade2= (score>=85 && score <=100) ? 'A' : (score >= 70 && score <85) ? 'B'
+                            : (score >= 60 && score<70) ? 'C' : (score >= 40 && score < 60) ? 'D'
+                            : (score >= 0 && score < 40) ? 'F' : '0' ;
+
+                    System.out.println("Student grade is " + grade2);       }else if (score >=0 && score < 51){
                     result = "Student was present and Student Score is " + score + " Grade is B";
                 }else {
                     result = "Student was present and Student Score is " + score + " Invalid number Check Score !!!!";

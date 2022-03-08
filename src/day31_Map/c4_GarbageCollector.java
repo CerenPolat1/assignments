@@ -27,7 +27,7 @@ public class c4_GarbageCollector {
         b1=null; //bunlar neden silinmiyor cunku bunlar cagrildi ve kullanildi
 
         c4_GarbageCollector obj2=new c4_GarbageCollector();
-        // obj2.finalize();
+        obj2.finalize();
 
         //finalize method is called by garbage collacter to sent our object to garbage
 

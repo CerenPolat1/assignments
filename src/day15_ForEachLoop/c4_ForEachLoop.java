@@ -30,7 +30,7 @@ public class c4_ForEachLoop {
 
         System.out.println("......");
         for (String word : words ){
-            System.out.println(word);
+            System.out.println("..."+ word);
         }
         System.out.println(".............");
         //for each loop doesnt need to have starting and ending point

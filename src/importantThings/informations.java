@@ -175,6 +175,7 @@ public class informations {
         //if java cathcs break inside the loop
         //loop will be stopped from running
         //anything after break statemtn wotn be excuted
+
         for (int l = 1; l <= 5; l++) {//1 2 3
             System.out.println("Hello");//1 2 3
 
@@ -481,7 +482,9 @@ public class informations {
 
 //  Q45   How to convert Array to TreeSet in java ? (solution)
 //
-//           To convert Array to TreeSet in java, first we need to convert Array to List using Arrays class asList() method. After converting Array to List,  pass the list object to TreeSet constructor. That's it , Array has been converted to TreeSet. You can confirm by printing out the values of TreeSet object.
+//           To convert Array to TreeSet in java, first we need to convert Array to List using Arrays class asList() method.
+//           After converting Array to List,  pass the list object to TreeSet constructor.
+//           That's it , Array has been converted to TreeSet. You can confirm by printing out the values of TreeSet object.
 //
 
 //  Q46   How to convert ArrayList to String Array in java ? (solution)
@@ -1097,7 +1100,7 @@ public class informations {
 //*************************************************************************************************************
 
 //    Bulk Operations:
-//    contailsAll(CollectionType):
+//    containsAll(CollectionType):
 //    addAll(CollectionType):
 //    removeAll(CollectionType):
 //    retainAll(CollectionType):
@@ -1673,7 +1676,23 @@ class test5{
     static{  //static block only works inside a class
 
     }
-}
+}        //*** Exemptions and Errors both are subclasses of Throwable class.
+
+    / The error indicates a problem that mainly occurs due to the lack of system resources***
+// and our application should not catch these types of problems.
+// Some of the examples of errors are system crash error and out of memory error.
+// Errors mostly occur at runtime that's they belong to an unchecked type.
+
+//Exemptions are the problems which can occur at runtime and compile time.
+// It mainly occurs in the code written by the developers.
+// Exemptions are divided into two categories such as checked Exemptions and unchecked Exemptions.
+
+ERROR:it comes from system errors. that is a problem for your system.
+you cant handle error because it occurs from system problems
+
+EXCEPTION: is kinda warning that comes from java
+it is just something that java gives you warning and you can handle Exemptions
+
 
 
 ayni class'in icinde overriding yapamazsin!!!
@@ -1697,22 +1716,6 @@ daha sonra child classda olusturdugun methodusu overriding yaparsin
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-        //*** Exemptions and Errors both are subclasses of Throwable class.
-
-    / The error indicates a problem that mainly occurs due to the lack of system resources***
-// and our application should not catch these types of problems.
-// Some of the examples of errors are system crash error and out of memory error.
-// Errors mostly occur at runtime that's they belong to an unchecked type.
-
-//Exemptions are the problems which can occur at runtime and compile time.
-// It mainly occurs in the code written by the developers.
-// Exemptions are divided into two categories such as checked Exemptions and unchecked Exemptions.
-
-ERROR:it comes from system errors. that is a problem for your system.
-you cant handle error because it occurs from system problems
-
-EXCEPTION: is kinda warning that comes from java
-it is just something that java gives you warning and you can handle Exemptions
 
 class ExemptionsExample{
 
@@ -2478,9 +2481,368 @@ List allows any number of null elements. Set can have only a single null element
        System.out.println("builder2.reverse() = " + builder2.reverse());  //reverse methodla kelime ters cevrildi
 
 
+       String theword= "ceren";
+        String reverse = "";
+
+        //int lenghtth= theword.length()-1;
+
+        for(int a=theword.length()-1; a>=0; a--){
+            reverse+=theword.charAt(a);
+        }
+        System.out.println(reverse);
 
 
 
+ for (int i =0 ; i < 5 ;i++){//0
+            System.out.println("Before Break");//0 1 2
+
+            if (i==2){
+
+                break;//when java reachs here it will break the loop //2
+                // System.out.println("After Break"); unreachable statement
+
+            }
+            System.out.println("After if");//0 1
+
+
+
+ for (int i = 0 ; i<5 ;i++){ //0
+            System.out.println("Before continue "+ i);//0 1 2 3 4
+
+            if (i==2){
+                continue;
+            }
+            System.out.println("after Continue " + i);//0 1  3  4
+        }
+
+
+         //ternary
+            //if ?
+            //else :
+            //else if   : () ?
+
+            char grade2= (score>=85 && score <=100) ? 'A' : (score >= 70 && score <85) ? 'B'
+                    : (score >= 60 && score<70) ? 'C' : (score >= 40 && score < 60) ? 'D'
+                    : (score >= 0 && score < 40) ? 'F' : '0' ;
+
+            System.out.println("Student grade is " + grade2);
+
+
+     toString method is used to convert wrapper objects to string
+
+        Integer myInt5=155;
+        String str=myInt5.toString(); //"155"
+        System.out.println("str = " + str);
+        System.out.println("str.length() = " + str.length());
+
+
+            //while loop : while loopp will be keep running as long as while condition is true
+        //initilization(baslangic) will be outside of while loop***********
+//        while (100 > 95){//condition here
+//            System.out.println("Hello world");
+//            //iteration
+//        }
+        //since condition is always true loop will be infinitive
+
+        int i = 0; // initilization
+
+        while (i<11){// condition//0 1
+            System.out.println("Hello World" + i);//0 1
+            i++;// iteration
+        }
+        System.out.println("**********************");
+
+
+
+
+//create a java logic that will sum the given numbers
+//example if input is 5 ;
+//output will be 1 + 2 +3 + 4 +5 == 15
+
+
+  int start=0; // starting pointi belirlemek icin..//neden 0 cunku toplamada sonucu degistirmez
+        //you have to print sum result
+        int sum=0; // toplamini saglamak icin
+
+        while (start<=number){//0 1 2 3 4>3
+           //System.out.println("Sum is in the while loop : "+sum);
+            sum += start;//0 +1  2 +3
+            //System.out.println("Sum is after (+=)" + sum);
+            start++;//1 2 3 4
+        }
+        System.out.println("Sum is at the end "+sum);
+
+
+           int totalRow=3;
+        int totalColumn=5;
+
+        for (int i=1 ;i<=totalRow ; i++){//1 2 .. totalRow
+
+            for (int j=1; j<= totalColumn ; j++){ //  1 2 ... totalColumn
+                System.out.print("* ");
+
+            }
+            System.out.println();// to move on next line
+        }
+
+
+
+
+
+
+*
+* *
+* * *
+* * * *
+
+    for (int i =1 ; i < 5 ; i++){ // 1 2 3 4
+
+            for(int k =1 ; k <= i ; k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+             * * * * * * *
+             * * * * * *
+             * * * * *
+             * * * *
+             * * *
+             * *
+             *
+
+  for (int i=7; i>=1; i-- ){
+
+            for (int k=1; k<=i; k++){
+                System.out.print("* ");
+            }
+            System.out.println("*");
+        }
+
+
+
+String [] names={"Firas","Hamsa","Meral","Suphi" };
+        //0       1       2       3
+
+        System.out.println(names[2]); // meral
+        System.out.println(numberList[3]);//40
+
+        //print all the names from string array
+
+        for (int i = 0 ; i <=3 ; i++){ //0 1 2 3
+            String name=names[i];//0 firas
+            System.out.println("nnnName " + i + " == " + name);
+        }
+
+
+
+   String []names = {"azmar","hasim" , "korkmaz" ,"shilan"};
+
+        System.out.println(Arrays.toString(names));//[azmar, hasim, korkmaz, shilan]
+
+
+
+
+          int [] list1={1,2,3,4,5,6};  //size is 6
+        int [] list2={10,11,12,0,13}; // size of this one 5
+
+        //newList size == 11
+
+        int [] newList=new int[list1.length + list2.length];
+        System.out.println(Arrays.toString(newList));
+        //all list will be 0 becuase java takes 0 as default
+        //11 0
+
+        //first i will need to assign from list1 to my newlist
+        for (int i =0 ; i < list1.length ; i++){ // 0 12 6
+            newList[i]=list1[i];
+            //newList[0]=list1[0];
+            //newList[1]=list1[1];
+            //newList[2]=list1[2];
+
+            //6
+
+        }
+        System.out.println(Arrays.toString(newList));
+
+        //second i will need to assign fromlist2 to my newlist
+        ////newList[6]=list2[0];
+        ////newList[7]=list2[1];
+        ////newList[8]=list2[2];
+        ////newList[9]=list2[3];
+        ////newList[10]=list2[4];
+        ////newList[11]=list2[5];
+        for (int i = 0 ; i < list2.length ; i++){
+            newList[list1.length +i]=list2[i];
+            ////newList[6+0]=list2[0];
+            ////newList[6+1]=list2[1];
+            ////newList[6+2]=list2[2];
+            ////newList[9]=list2[3];
+            ////newList[10]=list2[4];
+            ////newList[11]=list2[5];
+        }
+        System.out.println(Arrays.toString(newList));
+
+
+          int [] numberList={2,3,10,-55,209,100,7,9,10,100};
+        System.out.println(Arrays.toString(numberList));//{2,3,10,-55,209,100,7,9,10,100};
+
+        Arrays.sort(numberList);
+
+        System.out.println(Arrays.toString(numberList));//[-55, 2, 3, 7, 9, 10, 10, 100, 100, 209]
+        //[-55, 2, 3, 7, 9, 10, 10, 100, 100 ]
+
+
+
+        String [] names={"hello", "world", "java", "pyton", "sevgin", "renastechschool", "JS"};
+               //lets assume first word has max length
+        //lets assume first word has min length
+
+        int maxLength=names[0].length();
+        int minLength= names[0].length();
+
+        //lets assume largest and shorttest string
+        String longestName= names[0];
+        String shortestName= names[0];
+
+
+        for (int i =0 ; i < names.length ; i++){
+
+            if (names[i].length() >= maxLength){
+                maxLength= names[i].length();
+                longestName = names[i];
+            }
+
+            if (names[i].length() <= minLength){
+                minLength = names[i].length();
+                shortestName = names[i];
+            }
+        }
+
+        System.out.println(longestName);
+        System.out.println(shortestName);
+  }
+
+
+
+     //Another String method
+        //toCharArray()
+
+        //Method                 Description                                                      Return Type
+        //toCharArray()             this will take a string and return you a char array                 char[]
+
+        String str= "*& Java  12 Ghost ESther";
+        char [] letters= str.toCharArray(); //sana letter halinde bolup veriyor
+        System.out.println(letters [ 3]);
+        System.out.println(Arrays.toString(letters));//[*, &,  , J, a, v, a,  ,  , 1, 2,  , G, h, o, s, t,  , E, S, t, h, e, r] tostring bu sekilde almayi sagliyor
+        // 0   1  2  3  4  5  6  7
+        System.out.println(letters[7]);
+
+
+
+        //string method
+        //split()
+        //this will split given string from specific condition in the string     Return Type
+        //                                                                         string[]
+
+        String mySentence="Java is fun";
+
+        //task is to split sentence from spaces
+        // String [] splitedSenteces=mySentence.split(" "); // to split from spaces
+        // String [] splitedSenteces=mySentence.split("a"); //to split from a letter (a'lari cumleden cikarir)
+
+        String [] splitedSenteces=mySentence.split("");  //to split from each letter
+        System.out.println(Arrays.toString(splitedSenteces));
+
+
+        //tochararray vs split
+        //split is more specific to split anywhere you want to
+        //split retruns string array tochararray returns char array
+
+
+   public static void main(String[] args) {
+        String sentence="Java is fun ";
+        //fun is java
+        String [] splitedSentence=sentence.split(" ");//[Java, is, fun]
+        System.out.println (Arrays.toString(splitedSentence));
+
+
+        String reverseSentence="";//store result from last index to first index
+        for (int i = splitedSentence.length -1 ; i >=0 ; i--){
+            reverseSentence += splitedSentence[i] + " ";
+
+        }
+
+        System.out.println("+++++++++++++");
+        System.out.println(reverseSentence);
+
+
+
+
+            ////create a condtion that will reverse given string
+//        //ex: Java is fun
+//        //output should be nuf si avaJ
+        String sentence2="Java is fun";
+        String []splitedSentence2=sentence2.split("");//we split each letter and store into string array
+                                                             //split("") her harfi ayirmaya yariyor.
+                                                   // spesifik bir sey belirtmedin icine oyle olunca her letteri ayirir
+        String reverseString2="";
+        for (int i = splitedSentence2.length-1 ; i >=0 ; i --){
+            reverseString2 += splitedSentence2[i];
+        }
+
+        System.out.println(reverseString2);
+
+
+         int[] number = {1, 2, 3};
+        System.out.println(Arrays.toString(number));
+
+        //2D
+        int[][] number2D = {{1, 2}, {2, 3, 4}, {4}};
+        System.out.println(Arrays.toString(number2D));//hashtag  [[I@5cad8086, [I@6e0be858, [I@61bbe9ba]
+        //multi dimension oldugunda ve eger index belirtmezsen asagidakiler gibi hascode alirsin.
+        System.out.println(Arrays.toString(number2D[0]));//one container [1, 2]
+        System.out.println(Arrays.deepToString(number2D));//[[1, 2], [2, 3, 4], [4]]
+
+
+
+
+        String sentence="Hello world java is here";
+        //split method to store everything in the array
+        String [] words=sentence.split(" "); //splitin icinde space var o yuzden kelime kelime aliyor
+                                                   //eger split("") soyle dersen harf harf verir
+                                                   //dikkat ettt!!!!!
+
+        System.out.println("......");
+        for (String word : words ){
+            System.out.println("..."+ word);
+        }
+        System.out.println(".............");
+        //for each loop doesnt need to have starting and ending point
+        //it will check everything you have in the list,arrray
+
+
+
+
+
+
+ System.out.println(Arrays.toString(arr)); --->>>> [10, 5, 5]
+
+ int [] arr={10,5,5};
+        for (int each : arr){
+            System.out.println(each);      ---->>>> 10, 5,5 (alt alta siraladi cunku println
+        }
+
+
+   int [][] arr2d={ {1,2,3} , {4,5} ,{6,7,8,9,10}};
+
+        for( int [] each1D : arr2d){ //this will store each child container
+
+           for (int eachNumber : each1D){ //this will store each number from each container
+               System.out.print(eachNumber+" ");  -->>>> 1 2 3 4 5 6 7 8 9 10 --yan yana siraladi cunku print
+           }
+        }
 
 
 

@@ -16,6 +16,9 @@ public class c1_doWhileLoop {
             System.out.println("While loop");
         }
 
+
+
+
         do {   //do will run at least one time no mather condition is true or false
             System.out.println("do while loop ");
         }while (number <10 );

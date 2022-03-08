@@ -33,6 +33,15 @@ public class c4_removeCharactersTask {
             System.out.println("Word after first if check " + word);
         }
 
+//
+//
+//        if(word.substring(0,1)&& (word.substring(""word.length()-1)))
+//            word=word.substring(1);
+//        System.out.println("aaaaaaaaaa    "+word);
+
+
+
+
         length=word.length();
         System.out.println("Length of word after first if check "+length);
 

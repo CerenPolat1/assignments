@@ -2,9 +2,10 @@ package day20_Arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class assignment_1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Throwable {
 
 //(String) Frequency of Characters
 //String -- Frequency of Characters
@@ -34,9 +35,9 @@ public class assignment_1 {
 //(String) Sort Letters and Numbers from alphanumeric String
 
         ArrayList<Integer> numbers= new ArrayList<>();
-        numbers.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
-
-
+        numbers.addAll(Arrays.asList(1,2,3,4,6,7,8,9,10,5));
+        Collections.sort(numbers);
+        System.out.println("aaa   "+numbers);
 
 
 
@@ -77,6 +78,10 @@ public class assignment_1 {
 //Write a return method that returns the  Fibonacci of any given number
 
 
+
+
     }
+
+
 }
 

@@ -51,6 +51,8 @@ public class c4_NestedLoop {
             System.out.println("* * * * *");
         }
         System.out.println("++++++++++++++++++");
+
+
         int totalRow=3;
         int totalColumn=5;
 

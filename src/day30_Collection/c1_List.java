@@ -1,7 +1,7 @@
 package day30_Collection;
 
 
-// DAta Structurs
+// Data Structures
 //        1 Array (fixed)
 //        2 Collection (Dynamic)
 //        3 Map
@@ -123,6 +123,40 @@ public class c1_List {
         //    //2.order : list will keep the insertion order.
         //    //3null elements : list will allow you to use any number of null elements;
         //    //4.list has dynamic size
+
+
+        System.out.println("---------------");
+
+
+        System.out.println(firstLetterUpperCase("esra gonca kilic sarp"));
+
+
+
+
+
+
+    }
+
+
+    public static String firstLetterUpperCase(String name) {
+        if ((name== null) || (name.trim().length() == 0)) {
+            return name;
+        }
+
+        String namee="";
+        String output ="";
+        String[] nameOutput = name.split(" ");
+
+        for(int j =0 ; j< nameOutput.length ; j++ ){
+            if(j < nameOutput.length-1) {
+                output= output.concat(nameOutput[j].substring(0,1).toUpperCase()+".");
+            }
+            else
+                output= output.concat(nameOutput[j].substring(0,1).toUpperCase() + nameOutput[j].substring(1));
+        }
+
+        return output;
+
 
 
 

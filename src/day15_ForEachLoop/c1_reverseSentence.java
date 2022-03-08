@@ -14,14 +14,14 @@ public class c1_reverseSentence {
     public static void main(String[] args) {
         String sentence="Java is fun ";
         //fun is java
-        String [] splitedSentence=sentence.split("  ");//[Java, is, fun]
+        String [] splitedSentence=sentence.split(" ");//[Java, is, fun]
         System.out.println (Arrays.toString(splitedSentence));
 
 
         String reverseSentence="";//store result from last index to first index
         for (int i = splitedSentence.length -1 ; i >=0 ; i--){
             reverseSentence += splitedSentence[i] + " ";
-            System.out.println("in the loop " + reverseSentence);
+
         }
 
         System.out.println("+++++++++++++");
